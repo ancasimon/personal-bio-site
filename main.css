@@ -46,11 +46,19 @@ h1 {
     background-color: lightsteelblue;
 }
 
+.project {
+    border: 2px solid grey;
+    display: flex;
+    padding: 20px;
+    margin: 1em;
+}
+
 .page-footer {
     display: flex;
+    margin: 1em;
 }
 .footer-item {
     margin: 10px; 
-    padding: 10px;
+    padding: 10 px;
     font-size: 1.2em;
 }
