@@ -1,0 +1,25 @@
+body {
+    background-color: lightgrey;
+}
+
+.navbar {
+    display: flex;
+    background-color: lightsteelblue;
+    border-color: lightsteelblue;
+}
+
+.navItem {
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: grey;
+}
+
+.page-footer {
+    display: flex;
+}
+.footer-item {
+    border: 2px solid gray;
+    margin: 10px; 
+    padding: 10px;
+}
