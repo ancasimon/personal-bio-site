@@ -8,7 +8,7 @@ const projects = [
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github", 
         available: true,
         url: "https://github.com/ancasimon?tab=projects",
-        gitHubUrl: "https://github.com/ancasimon"
+        githubUrl: "https://github.com/ancasimon"
     },
     {
         title: "Project #2",
@@ -17,7 +17,7 @@ const projects = [
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github", 
         available: false,
         url: "https://github.com/ancasimon?tab=projects",
-        gitHubUrl: "https://github.com/ancasimon"
+        githubUrl: "https://github.com/ancasimon"
     },
     {
         title: "Project #3",
@@ -26,29 +26,29 @@ const projects = [
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github", 
         available: true,
         url: "https://github.com/ancasimon?tab=projects",
-        gitHubUrl: "https://github.com/ancasimon"
+        githubUrl: "https://github.com/ancasimon"
     }
 ];
 
-printToDom = (elementId, textToPrint) => {
-    const selectedDiv = document.getElementById(elementId);
-    selectedDiv.innerHTML = textToPrint;
-};
 
 createProjectCards = () => {
     let domString = '';
     for(i = 0; i < projects.length; i++) {
         if(projects[i].available === true) {
         domString += '<div class="project">';
-        domString += `<h3>Project title: ${projects[i].title}</h3>`;
-        domString += `<section>${projects[i].screenshot}</section>`;
-        domString += `<p>What it is: ${projects[i].description}</p>`;
-        domString += `<p>What I used: ${projects[i].technologiesUsed}</p>`;
-        domString += `<h5>Available yet? ${projects[i].available}</h5>`;
-        domString += `<p>Available here: ${projects[i].url}</p>`;
-        domString += `<p>My GitHub: ${projects[i].gitHubUrl}</p>`;
+        domString += `<h3 class="projectData">Project title: ${projects[i].title}</h3>`;
+        domString += `<section class="projectData">${projects[i].screenshot}</section>`;
+        domString += `<p class="projectData">What it is: ${projects[i].description}</p>`;
+        domString += `<p class="projectData">What I used: ${projects[i].technologiesUsed}</p>`;
+        domString += `<h5 class="projectData">Available yet? ${projects[i].available}</h5>`;
+        domString += `<p class="projectData">Available here: ${projects[i].url}</p>`;
+        domString += `<p class="projectData">My GitHub: ${projects[i].githubUrl}</p>`;
         domString += '</div>';
-    }
+    };
+    printToDom = (elementId, domString) => {
+        const selectedDiv = document.getElementById(elementId);
+        selectedDiv.innerHTML = domString;
+    };
 };
     printToDom('projectsPage', domString);
 };
