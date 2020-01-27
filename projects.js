@@ -36,7 +36,7 @@ createProjectCards = () => {
     for(i = 0; i < projects.length; i++) {
         if(projects[i].available === true) {
         domString += '<div class="project">';
-        domString += `<h3 class="projectData">Project title: ${projects[i].title}</h3>`;
+        domString += `<h4 class="projectData">Project title: ${projects[i].title}</h4>`;
         domString += `<section class="projectData">${projects[i].screenshot}</section>`;
         domString += `<p class="projectData">What it is: ${projects[i].description}</p>`;
         domString += `<p class="projectData">What I used: ${projects[i].technologiesUsed}</p>`;
@@ -50,7 +50,7 @@ createProjectCards = () => {
         selectedDiv.innerHTML = domString;
     };
 };
-    printToDom('projectsPage', domString);
+    printToDom('projectsTable', domString);
 };
 
 createProjectCards();

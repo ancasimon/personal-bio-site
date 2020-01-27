@@ -8,29 +8,66 @@
     <link rel="stylesheet" href='./main.css'>
 </head>
 <body>
-    <nav>
+    <div id="invisible-header">
         <h1>Anca Simon</h1>
-        <div class="navbar">
-            <ul id="navLinks">
-                <li><a id="navToHome" href='./index.html' class="navItem">Home</a></li>
-                <li><a id="navToBio" href='./bio.html' class="navItem">Bio</a></li>
-                <li><a id="navToTechnologies" href='./technologies.html' class="navItem">Technologies</a></li>
-                <li><a id="navToProjects" href='./projects.html' class="navItem">Projects</a></li>
-            </ul>
-        </div>
-    </nav>
+        <h3>Software developer in training, hiker, icecream-lover</h3>
+        <nav>
+            <div class="navbar">
+                <ul id="navLinks">
+                    <li><a id="navToBio" class="navItem" href="#bioPage">About Me</a></li>
+                    <li><a id="navToTechnologies" class="navItem" href="#technologiesPage">Technologies</a></li>
+                    <li><a id="navToProjects" class="navItem" href="#projectsPage">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="header">
+        <img src="c:/Desktop/Photos/Katahdin.jpg" alt="Mt Katahdin in Baxter State Park, Maine, on a beautiful fall day">
+        <h1>Anca Simon</h1>
+        <h3>Software developer in training, hiker, icecream-lover</h3>
+        <nav>
+            <div class="navbar">
+                <ul id="navLinks">
+                    <li><a id="navToBio" class="navItem" href="#bioPage">About Me</a></li>
+                    <li><a id="navToTechnologies" class="navItem" href="#technologiesPage">Technologies</a></li>
+                    <li><a id="navToProjects" class="navItem" href="#projectsPage">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     
     <!--Primary View-->
     <div class="fullPage" id="bioPage">
+        <h2>About Me</h2>
         <p>I am currently attending the Nashville Software School. I have worked in the software development arena for over 10 years - initially as a technical writer and later as a business analyst and product manager. I am excited to finally delve into the nuts and bolts of programming after tangentially learning about it through my peers and projects.</p>
-        <h4>Are you really curious to understand why I am pursuing development? Read on!</h4>
+        <h4>Really curious to understand why I am pursuing development? Read on!</h4>
         <table>
             <tr>
-            <td> I still remember the awe, pride, and amazement I experienced when I went to a demo session with our developers where they were showing us the first iteration of a module for which I had written the business specifications and done the mockups. I had been a business analyst for a few months and written specs already for lots of little enhancements. Writing, testing, releasing, and training others on each of them had been exciting. I still remember how excited the customers were about each of these smaller additions, too, since it solved a specific problem for them.</td>
-            <td>However, that internal demo with just our immediate team of developers, QA, and technical writers  dedicated to this project, myself, my manager, and a couple other BAs still remains so memorable. There had been nothing, and now there was something - something I had envisioned and first put on paper. To be clear, it was most definitely not just my work. We had had lots of meeting with various clients to understand the business problems we were trying to solve. I had had lots of meeting with individual developers to review the business specs as they were progressing. Same with my fellow BAs and my direct manager, who were instrumental in helping shape my thinking and our project. And then we had more meetings with customers to review mockups. And more tweaks. Numerous times.</td>
-            <td>Yet, that moment of seeing something come out of nothing (in some ways) was remarkable. It was followed by much harder work than what had already been put in - many sprints, many reviews, many edits, much testing. Seeing our users' excitement at something they may have considered but did not know was coming and watching them envision the potential benefits to their work always reminded me of that early first demo and my own surprise and delight. That’s why I am pursuing the developer role today. I loved my role as a BA, and I hope that I can combine my previous skills and experience with what I am learning now so that I can continue to contribute in solving big and small business and technical problems.</td>
+            <td> I still remember the awe, pride, and amazement I experienced when I went to a demo session with our developers where they were showing us the first iteration of a module for which I had written the business specifications and done the mockups. I had been a business analyst for a few months and written specs already for lots of little enhancements. Writing, testing, releasing, and training others on each of them had been exciting.</td>
+            <td>However, that internal demo with just our immediate team remains so memorable. There had been nothing, and now there was something - something I had envisioned and first put on paper. To be clear, it was most definitely not just my work. We had had lots of meetings with  clients, developers, my fellow BAs and my direct manager, who were instrumental in helping shape my thinking and our project. And then we had more meetings with customers to review mockups. And more tweaks. Numerous times.</td>
+            <td>Yet, that moment of seeing something come out of nothing (in some ways) was remarkable. It was followed by much harder work - many sprints, many reviews, many edits, much testing. Watching our users envision the future benefits of this new feature always reminded me of that early first demo and my own surprise and delight. That’s why I am pursuing the developer role today. I plan to combine my previous skills and experience with what I am learning now so that I can continue to contribute in solving big and small business and technical problems.</td>
         </table>
     </div>
+
+    <div class="fullPage" id="technologiesPage">
+        <h2>Technologies</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Github</li>
+            <li>More TBD</li>
+        </ul>
+    </div>
+    
+    <div class="fullPage" id="projectsPage">
+        <h2>My Projects</h2>
+        <div id="projectsTable">
+        
+        </div>
+    </div>
+
     
     
 
@@ -46,6 +83,7 @@
 
     <!-- <script src='./projects.js'></script> -->
     <script src='./main.js'></script>
+    <script src='./projects.js'></script>
     
 </body>
 </html>
