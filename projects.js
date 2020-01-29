@@ -1,5 +1,3 @@
-console.log("Hi Simon Projects Page");
-
 const projects = [
     {
         title: "Cool Project",
@@ -15,7 +13,7 @@ const projects = [
         screenshot: "http://gotoflashgames.com/files/file/033.jpg",
         description: "project description: A good project description includes 'the what', 'the why', and 'the how'",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github", 
-        available: false,
+        available: true,
         url: "https://github.com/ancasimon?tab=projects",
         githubUrl: "https://github.com/ancasimon"
     },
@@ -27,9 +25,31 @@ const projects = [
         available: true,
         url: "https://github.com/ancasimon?tab=projects",
         githubUrl: "https://github.com/ancasimon"
+    },
+    {
+        title: "Project #4",
+        screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+        description: "project description: A good project description includes 'the what', 'the why', and 'the how'",
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github", 
+        available: false,
+        url: "https://github.com/ancasimon?tab=projects",
+        githubUrl: "https://github.com/ancasimon"
+    },
+    {
+        title: "Project #5",
+        screenshot: "http://gotoflashgames.com/files/file/033.jpg",
+        description: "project description: A good project description includes 'the what', 'the why', and 'the how'",
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github", 
+        available: true,
+        url: "https://github.com/ancasimon?tab=projects",
+        githubUrl: "https://github.com/ancasimon"
     }
 ];
 
+const printToDom = (elementId, textToPrint) => {
+    const selectedDiv = document.getElementById(elementId);
+    selectedDiv.innerHTML = textToPrint;
+};
 
 createProjectCards = () => {
     let domString = '';
@@ -44,13 +64,13 @@ createProjectCards = () => {
         domString += `<p class="projectData">Available here: ${projects[i].url}</p>`;
         domString += `<p class="projectData">My GitHub: ${projects[i].githubUrl}</p>`;
         domString += '</div>';
+        };
     };
-    printToDom = (elementId, domString) => {
-        const selectedDiv = document.getElementById(elementId);
-        selectedDiv.innerHTML = domString;
-    };
-};
     printToDom('projectsTable', domString);
 };
 
-createProjectCards();
+const init = () => {
+    createProjectCards();
+};
+
+init();
