@@ -1,16 +1,14 @@
 body {
-    width: 100%;
     font-size: 1em;
-    background-color: lightgrey;
-    margin: 0;
+    color: black;
+    margin-left: 0;
     text-align: center;
     min-height: 400px;
     margin-bottom: 100px;
-    clear: both;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .fullPage {
@@ -18,61 +16,7 @@ h1 {
     width: 100%;
     height: 100%;
     box-sizing:border-box;
-}
-
-div#header {
-    width: 100%; 
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: steelblue;
-}
-
-div#invisible-header {
-    width: 100%;
-    visibility: hidden;
-}
-
-div#header h1, h3, div#invisible-header h1, h3 {
-    font-family: Verdana, Geneva, sans-serif;
-    /* font-weight: 900; */
-    color: white; 
-    text-transform: uppercase;
-}
-
-/* .navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    background-color: lightsteelblue;
-    border-color: lightsteelblue;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-} */
-
-#navLinks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.navItem {
-    width: 225px;
-    height: 50px;
-    border: 3px solid gray;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 20px 5px 5px grey;
-    float: left;
-    color: black;
-    font-weight: bold;
-    font-size: 1.5em;;
-    text-decoration: none;
-    background-color: lightsteelblue;
+    padding-top: 100px;
 }
 
 .project {
@@ -91,6 +35,7 @@ div#header h1, h3, div#invisible-header h1, h3 {
     display: flex;
     margin: 1em;
 }
+
 .footer-item {
     margin: auto; 
     padding: 20 px;
@@ -98,12 +43,18 @@ div#header h1, h3, div#invisible-header h1, h3 {
 }
 
 a {
-    color: blue;
-    font-weight: bold;
+    color: black;
+    font-size: .80em;
+    text-transform: uppercase;
 }
 
 a:hover {
-    font-size: 2em;
+    color: navy;
+}
+
+a :active {
+    text-decoration: underline;
+    color: navy;
 }
 
 p {
@@ -137,3 +88,4 @@ td {
     font-style: italic;
     line-height: 125%;
 }
+
