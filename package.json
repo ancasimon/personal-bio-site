@@ -1,0 +1,48 @@
+{
+  "name": "personal-bio-site",
+  "version": "1.0.0",
+  "description": "## Description This project is the beginning of our personal portfolio site. It gives an introduction to using arrays to dynamically create a list of items that will be displayed on the screen. Instructions can be found [here](https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-01.md).",
+  "main": "src/javascripts/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancasimon/personal-bio-site.git"
+  },
+  "keywords": [],
+  "author": "Anca Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ancasimon/personal-bio-site/issues"
+  },
+  "homepage": "https://github.com/ancasimon/personal-bio-site#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}

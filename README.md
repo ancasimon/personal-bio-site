@@ -5,7 +5,7 @@ This project is the beginning of our personal portfolio site. It gives an introd
 
 ## Screenshots
 ##### Home Page
-![Home Page](./screenshots-personal-bio-site/personal-bio-site-home-page.png)
+![Home Page](./src/img-personal-bio-site/personal-bio-site-home-page.png)
 
 
 ## How to Run
