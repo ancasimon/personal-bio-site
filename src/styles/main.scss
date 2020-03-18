@@ -31,16 +31,16 @@ h2 {
     padding-top: 100px;
 }
 
-.project {
-    width: 90%;
-    border: 2px solid grey;
-    display: flex;
-    padding: 1em;
-    margin: 2em;
+.project-container {
+    text-align: center;
+    align-items: center;
 }
 
-.projectData {
-    margin: 20px; 
+.project-card {
+    width: 25%;
+    border: 2px solid grey;
+    padding: 1em;
+    margin: 2em;
 }
 
 .page-footer {
