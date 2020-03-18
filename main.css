@@ -1,4 +1,5 @@
 body {
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     color: black;
     margin-left: 0;
@@ -9,6 +10,12 @@ body {
 
 h1 {
     font-size: 1em;
+    color: navy;
+}
+
+h2 {
+    color: navy;
+    text-transform: uppercase;
 }
 
 .fullPage {
@@ -39,7 +46,8 @@ h1 {
 .footer-item {
     margin: auto; 
     padding: 20 px;
-    font-size: 1.2em;
+    font-size: 3em;
+    color: navy;
 }
 
 a {
