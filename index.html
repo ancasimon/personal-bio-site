@@ -4,40 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href='./main.css'>
     <title>Anca Simon</title>
 </head>
-<body>
-    <div id="invisible-header">
-        <h1>Anca Simon</h1>
-        <h3>Software developer in training, hiker, Nashville transplant</h3>
-        <nav>
-            <div class="navbar">
-                <ul id="navLinks">
-                    <li><a href="#bioPage" id="navToBio" class="navItem">About Me</a></li>
-                    <li><a href="#technologiesPage" id="navToTechnologies" class="navItem">Technologies</a></li>
-                    <li><a href="#projectsPage" id="navToProjects" class="navItem">Projects</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+<body class="bg-white">
     <div id="header">
-        <h1>Anca Simon</h1>
-        <h3>Software developer in training, hiker, Nashville transplant</h3>
-        <nav>
-            <div class="navbar">
-                <ul id="navLinks">
-                    <li><a id="navToBio" class="navItem" href="#bioPage">About Me</a></li>
-                    <li><a id="navToTechnologies" class="navItem" href="#technologiesPage">Technologies</a></li>
-                    <li><a id="navToProjects" class="navItem" href="#projectsPage">Projects</a></li>
-                </ul>
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <a id="brand" class="navbar-brand mb-0 h1 nav-item nav-link active" href="#jumbo-pic">Anca Simon</a>
+            <div id="navLinks" class="nav justify-content-end navbar">
+                      <a id="navToBio" class="nav-item nav-link" href="#bioPage">About Me</a>
+                      <a id="navToTechnologies" class="nav-item nav-link" href="#technologiesPage">Technologies</a>
+                      <a id="navToProjects" class="nav-item nav-link" href="#projectsPage">Projects</a>
+                      <a id="navToExperience" class="nav-item nav-link" href="#experiencePage">Experience & Education</a>
+                      <a id="navToFooter" class="nav-item nav-link" href="#contact">Contact</a>
             </div>
         </nav>
     </div>
+    <div class="jumbotron-fluid">
+        <div class="container-fluid">
+        <img id="jumbo-pic" src='./screenshots-personal-bio-site/Anca_Charlies_Bunion.jpeg' alt="developer on top of Chalies Bunion, Smoky Mtns">;
+    </div>
+</div>
 
     <!--Primary View-->
     <div class="fullPage anchor" id="bioPage">
         <h2>About Me</h2>
+        <hr></hr>
         <p>I am currently attending the Nashville Software School. I have worked in the software development arena for over 10 years - initially as a technical writer and later as a business analyst and product manager. I am excited to finally delve into the nuts and bolts of programming after tangentially learning about it through my peers and projects.</p>
         <h4>Really curious to understand why I am pursuing development? Read on!</h4>
         <table>
@@ -50,6 +44,7 @@
 
     <div class="fullPage anchor" id="technologiesPage">
         <h2>Technologies</h2>
+        <hr></hr>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -62,20 +57,39 @@
     
     <div class="fullPage anchor" id="projectsPage">
         <h2>My Projects</h2>
+        <hr></hr>
         <div id="projectsTable">
         
         </div>
     </div>
 
+    <div class="fullPage anchor" id="experiencePage">
+        <h2>Experience</h2>
+        <hr></hr>
+        <ul>
+            <li>TBD</li>
+        </ul>
+        <h2>Education</h2>
+        <hr></hr>
+        <ul>
+            <li>TBD</li>
+        </ul>
+    </div>
+
     <!--footer-->
+    <div class="fullPage anchor" id="contact">
+        <h2>Contact</h2>
+        <hr></hr>
     <footer class="page-footer">
-        <h2>Contact me:</h2>
-        <a href="mailto:ancarsimon@gmail.com" class="footer-item" target="_blank">Email</a>
+        <a href="tel:1-615-498-2643" class="footer-item" target="_blank">(615) 498-2643</a>
+        <a href="mailto:ancarsimon@gmail.com" class="footer-item" target="_blank">ANCARSIMON@GMAIL.COM</a>
         <a href="https://github.com/ancasimon" class="footer-item" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/anca-simon-a6524ab" class="footer-item" target="_blank">LinkedIn</a>
-        <a href="https://twitter.com/SimonAnca" class="footer-item" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/anca-simon" class="footer-item" target="_blank">LinkedIn</a>
     </footer>
 
     <script src='./projects.js'></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>
