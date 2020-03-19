@@ -40,13 +40,13 @@ const projects = [
     githubUrl: 'https://github.com/ancasimon',
   },
   {
-    title: 'Project #5',
-    screenshot: 'http://gotoflashgames.com/files/file/033.jpg',
-    alt: 'tbd',
-    description: 'project description: A good project description includes the what, the why, and the how',
+    title: 'Patient Tracker',
+    screenshot: '../../../../src/img-personal-bio-site/dinos.png',
+    alt: 'Home page of the dinosaur app',
+    description: 'Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the vanilla javascript we learned during the Foundations milestone.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
     available: true,
-    url: 'https://github.com/ancasimon?tab=projects',
+    url: 'https://github.com/ancasimon/dino-kennel',
     githubUrl: 'https://github.com/ancasimon',
   },
 ];
