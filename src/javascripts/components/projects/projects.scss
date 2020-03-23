@@ -1,0 +1,18 @@
+@import '../../../styles/_colors';
+@import '../../../styles/_variables';
+
+.project-container {
+  text-align: center;
+  align-items: center;
+}
+
+.project-card {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 2em;
+  box-shadow: $box-shadow;
+  img {
+    display: inline-block;
+    width: 100%;
+  }
+}
