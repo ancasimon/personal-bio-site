@@ -1,11 +1,11 @@
 # Anca Simon Personal Bio Site
 
 ## Description
-This project is the beginning of our personal portfolio site. It gives an introduction to using arrays to dynamically create a list of items that will be displayed on the screen. Instructions can be found [here](https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-01.md).
+This project is my personal portfolio site. It allows users to learn about my background and about the projects I have developed as a student at NSS. This site showcases the technologies and tools we have learned during our NSS bootcamp program. 
 
 ## Screenshots
 ##### Home Page
-![Home Page](./src/img-personal-bio-site/personal-bio-site-home-page.png)
+![Home Page](./src/img-personal-bio-site/home.png)
 
 
 ## How to Run
