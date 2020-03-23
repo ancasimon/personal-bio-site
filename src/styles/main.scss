@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import '../styles/colors.scss';
 
 body {
     font-family: 'Lato', sans-serif;
@@ -9,17 +10,16 @@ body {
     margin-left: 0;
     text-align: center;
     min-height: 400px;
-    margin-bottom: 100px;
 }
 
 h1 {
     font-size: 1em;
-    color: navy;
+    color: $dark-blue;
 }
 
 h2 {
     font-size: 1.5em;
-    color: navy;
+    color: $dark-blue;
     text-transform: uppercase;
 }
 
@@ -29,17 +29,6 @@ h2 {
     height: 100%;
     box-sizing:border-box;
     padding-top: 100px;
-}
-
-.project-container {
-    text-align: center;
-    align-items: center;
-}
-
-.project-card {
-    width: 25%;
-    border: 2px solid grey;
-    margin: 2em;
 }
 
 .full-img {
@@ -53,13 +42,17 @@ h6 {
 .page-footer {
     display: flex;
     background-color: white;
+    margin-bottom: 1em;
 }
 
 .footer-item {
     margin: auto; 
     padding: 20 px;
     font-size: 2em;
-    color: navy;
+}
+
+.margin-bottom {
+    margin-bottom: 5em;
 }
 
 a {
@@ -69,12 +62,12 @@ a {
 }
 
 a:hover {
-    color: navy;
+    color: $dark-blue;
 }
 
 a :active {
     text-decoration: underline;
-    color: navy;
+    color: $dark-blue;
 }
 
 p {
