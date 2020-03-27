@@ -8,11 +8,13 @@
 
 .project-card {
   border: 2px solid grey;
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 2em;
   box-shadow: $box-shadow;
   img {
     display: inline-block;
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 }
