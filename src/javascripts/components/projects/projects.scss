@@ -7,14 +7,17 @@
 }
 
 .project-card {
-  border: 2px solid grey;
-  border-radius: 20px;
+  border: 3px double grey;
+  border-radius: 30px;
   margin: 2em;
   box-shadow: $box-shadow;
   img {
     display: inline-block;
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  p {
+    font-size: .75em;
   }
 }
