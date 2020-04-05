@@ -42,6 +42,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "firebase": "^7.13.2",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1"
   }

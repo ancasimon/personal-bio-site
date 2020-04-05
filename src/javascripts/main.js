@@ -1,4 +1,5 @@
 import firebase from 'firebase/app';
+import apiKeys from './helpers/apiKeys.json';
 import 'bootstrap';
 import '../styles/main.scss';
 import about from './components/about/about';

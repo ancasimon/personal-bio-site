@@ -20,7 +20,7 @@
     "githubUrl": "https://github.com/ancasimon?tab=projects"
   },
   "project3": {
-    "title": "Sundews Smoozer Chatting App",
+    "title": "Sundews Smoozer",
     "screenshot": "../../../../src/img-personal-bio-site/sundews.png",
     "alt": "Messaging app with a sundew flower theme",
     "description": "Sundew Smoozer is a messaging app that allows users to select user, send message that gets validated, delete messages, choose dark mode, adjust font-size, and clear all messages.",
