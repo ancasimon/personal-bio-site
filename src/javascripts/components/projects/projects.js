@@ -5,8 +5,10 @@ import './projects.scss';
 const createProjectCards = () => {
   projectData.getProjects()
     .then((projects) => {
+      const sortedProjects = projects.sort((a, b) => b.order - a.order);
+      console.log('sortedprojects', sortedProjects);
       let domString = '<div class="d-flex flex-wrap project-container">';
-      projects.forEach((project) => {
+      sortedProjects.forEach((project) => {
         if (project.available === true) {
           domString += '<div class="card project-card" style="width: 18rem;">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
