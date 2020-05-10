@@ -2,7 +2,7 @@
   "project1": {
     "title": "Patient Tracker",
     "order": "01",
-    "screenshot": "https://tinyurl.com/rlzfwve",
+    "screenshot": "https://tinyurl.com/y8mw5qob",
     "alt": "Home page of the dinosaur app",
     "description": "Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the vanilla javascript we learned during our Foundations milestone.",
     "briefDescription": "tbd",
@@ -15,7 +15,7 @@
   "project2": {
     "title": "Battleheart",
     "order": "02",
-    "screenshot": "https://tinyurl.com/ycsqg545",
+    "screenshot": "https://tinyurl.com/yctkrs75",
     "alt": "Home page of the famous band",
     "description": "Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the vanilla javascript we learned during our Foundations milestone.",
     "briefDescription": "tbd",
@@ -28,7 +28,7 @@
   "project3": {
     "title": "Compete",
     "order": "03",
-    "screenshot": "https://tinyurl.com/sk8fpl9",
+    "screenshot": "https://tinyurl.com/ybvdp9bs",
     "alt": "Bears catching fish",
     "description": "Want to track statistics and see the winners? Compete is your app!  It allows park rangers to track brown bear feeding behavior, keep a record of attempts and succeses, and identify the winners. This project is an exploration into using ES6 modules. Bear-y nice!",
     "briefDescription": "tbd",
@@ -41,7 +41,7 @@
   "project4": {
     "title": "Sundew Smoozer",
     "order": "04",
-    "screenshot": "https://tinyurl.com/wsfrceu",
+    "screenshot": "https://tinyurl.com/y7f6t78o",
     "alt": "Messaging app with a sundew flower theme",
     "description": "Sundew Smoozer is a messaging app that allows users to select user, send message that gets validated, delete messages, choose dark mode, adjust font-size, and clear all messages.",
     "briefDescription": "tbd",
@@ -54,7 +54,7 @@
   "project5": {
     "title": "Foodies Unite",
     "order": "05",
-    "screenshot": "https://tinyurl.com/tsgsyg8",
+    "screenshot": "https://tinyurl.com/yagtlq6k",
     "alt": "Pinterest-like app with a food theme",
     "description": "This project is an exploration into using a Firebase database for user authentication and data management. It is a site similar to a much simplified vesion of Pinterest, and it includes meal recommendations for various places around the US and the world.",
     "briefDescription": "tbd",
@@ -67,7 +67,7 @@
   "project6": {
     "title": "Travel Diary",
     "order": "06",
-    "screenshot": "https://tinyurl.com/y9ccqqlm",
+    "screenshot": "https://tinyurl.com/yc99ay2l",
     "alt": "Travel Diary",
     "description": "This project was an opportunity to further hone my skills working with the Firebase database, understanding the relationships between collections and the axios calls necessary to manipulate the data from multiple collections simultaneously.",
     "briefDescription": "tbd",
@@ -80,7 +80,7 @@
   "project7": {
     "title": "Nautilus Explorer",
     "order": "07",
-    "screenshot": "https://tinyurl.com/y9q7yoja",
+    "screenshot": "https://tinyurl.com/ybtmo9kd",
     "alt": "Drawing of the Nautilus submarin interior",
     "description": "This group project gave us the opportunity to practice and enhance our understanding of CRUD processes.",
     "briefDescription": "tbd",
@@ -93,7 +93,7 @@
   "project8": {
     "title": "Renaissance Faire",
     "order": "08",
-    "screenshot": "https://tinyurl.com/ycpqdrfa",
+    "screenshot": "https://tinyurl.com/ybaufkoz",
     "alt": "SCreenshot of the Renaissance Faire site",
     "description": "This group project gave us the opportunity to better understand how to work with promises and use axios calls to manipulate data in mutliple collections simultaneously. We also got to practice our pair programming skills and proved to be a great group of communicators who shared progress, debugged together, and ensured no one was left behind.",
     "briefDescription": "tbd",
