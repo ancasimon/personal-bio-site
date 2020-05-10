@@ -35,6 +35,11 @@ h2 {
     width: 100%;
 }
 
+.aboutSection {
+    width: 80%;
+    margin: auto;
+}
+
 h6 {
     font-weight: bolder;
 }
@@ -102,3 +107,15 @@ td {
     line-height: 125%;
 }
 
+// PROJECTS
+.project-container {
+    justify-content: space-evenly;
+}
+
+// .project-card {
+//     width: 30%;
+// }
+
+.modalImage {
+    width: 200px;
+}

@@ -17,4 +17,6 @@ const getProjects = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getProjects };
+const getSingleProject = (projectId) => axios.get(`${baseUrl}/projects/${projectId}.json`);
+
+export default { getProjects, getSingleProject };
