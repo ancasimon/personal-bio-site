@@ -12,7 +12,9 @@ const init = () => {
   nav.buildNavbar();
   jumbotron.buildJumbotron();
   about.buildAboutSection();
+  projects.createProjectCardsEvents();
   projects.createProjectCards();
+  projects.openProjectDetails();
 };
 
 init();
