@@ -12,14 +12,15 @@ const createProjectCards = () => {
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
         if (project.available === true) {
-          domString += '<div class="col-md-3">';
+          domString += '<div class="col-md-3 p-5">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
           domString += '<div class="card-body">';
-          domString += `<h5 class="card-title">${project.title}</h5>`;
+          domString += `<h4 class="card-title">${project.title}</h4>`;
+          domString += `<p class="card-title">${project.briefDescription}</p>`;
           domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
-          domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
+          domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
           console.error('project id in card', project.id);
           domString += '</div>';
           domString += '</div>';
@@ -43,4 +44,4 @@ const createProjectCardsEvents = () => {
   $('body').on('click', '.btnOpenProjectDetails', openProjectDetails);
 };
 
-export default { createProjectCards, openProjectDetails, createProjectCardsEvents };
+export default { createProjectCards, createProjectCardsEvents };

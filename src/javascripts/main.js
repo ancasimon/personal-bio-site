@@ -6,6 +6,7 @@ import about from './components/about/about';
 import jumbotron from './components/jumbotron/jumbotron';
 import nav from './components/navbar/navbar';
 import projects from './components/projects/projects';
+import technologies from './components/technologies/technologies';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
@@ -14,7 +15,7 @@ const init = () => {
   about.buildAboutSection();
   projects.createProjectCardsEvents();
   projects.createProjectCards();
-  projects.openProjectDetails();
+  technologies.createTechPage();
 };
 
 init();

@@ -13,3 +13,5 @@ This project is my personal portfolio site. It allows users to learn about my ba
 1. Make sure you have http-server installed via npm. If not, get it [here](https://www.npmjs.com/package/http-server).
 1. On your command line, run `hs -p 9999`.
 1. In your browser, navigate to `http://localhost:9999`.
+
+Image sources: https://icons8.com/icons/pack/user-interface; https://github.com/FortAwesome/Font-Awesome/tree/master/svgs 
