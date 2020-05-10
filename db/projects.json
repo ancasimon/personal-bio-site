@@ -27,7 +27,7 @@
     "screenshot": "https://tinyurl.com/wsfrceu",
     "alt": "Messaging app with a sundew flower theme",
     "description": "Sundew Smoozer is a messaging app that allows users to select user, send message that gets validated, delete messages, choose dark mode, adjust font-size, and clear all messages.",
-    "technologiesUsed": "Bootstrap, CSS, ES6 Modules, Github (for version control), HTML, JavaScript (vanilla), JQuery, SASS, Webpack",
+    "technologiesUsed": "Bootstrap, CSS, ES6 Modules, Github (for version control), HTML, JavaScript (vanilla), JQuery, Sass, Webpack",
     "available": true,
     "url": "https://sundews-7cdbf.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/chatty-sundews"
@@ -38,20 +38,42 @@
     "screenshot": "https://tinyurl.com/tsgsyg8",
     "alt": "Pinterest-like app with a food theme",
     "description": "This project is an exploration into using a Firebase database for user authentication and data management. It is a site similar to a much simplified vesion of Pinterest, and it includes meal recommendations for various places around the US and the world.",
-    "technologiesUsed": "API, Axios, Bootstrap, CSS, ES6 Modules, Firebase (for authentication and data management), Github (for version control), Google login authentication, HTML, JavaScript (vanilla), JQuery, JSON, Lucidchart, moment.js, moqups, SASS, Webpack",
+    "technologiesUsed": "API, Axios, Bootstrap, CSS, ES6 Modules, Firebase (for authentication and data management), Github (for version control), Google login authentication, HTML, JavaScript (vanilla), JQuery, JSON, Lucidchart, moment.js, moqups, Sass, Webpack",
     "available": true,
     "url": "https://pinterest-4b62d.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/pinterest"
   },
   "project5": {
-    "title": "Project",
+    "title": "Travel Diary",
     "order": "05",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "alt": "tbd",
-    "description": "This project is an exploration into using ES6 modules. It is a site that scientists and park rangers can use to track brown bear feeding behavior.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": false,
+    "screenshot": "https://tinyurl.com/y9ccqqlm",
+    "alt": "Travel Diary",
+    "description": "This project was an opportunity to further hone my skills working with the Firebase database, understanding the relationships between collections and the axios calls necessary to manipulate the data from multiple collections simultaneously.",
+    "technologiesUsed": "API, Axios, Bootstrap, CSS, ES6 Modules, Firebase, Version Control with Github, HTML, Vanilla JavaScript, jQuery, JSON, Lucidchart, Sass, Webpack",
+    "available": true,
     "url": "https://github.com/ancasimon/bear-watcher",
-    "githubUrl": "https://github.com/ancasimon/bear-watcher"
+    "githubUrl": "https://github.com/ancasimon/travel-diary"
+  },
+  "project6": {
+    "title": "Nautilus Explorer",
+    "order": "06",
+    "screenshot": "https://tinyurl.com/y9q7yoja",
+    "alt": "Drawing of the Nautilus submarin interior",
+    "description": "This group project gave us the opportunity to practice and enhance our understanding of CRUD processes.",
+    "technologiesUsed": "API, Axios, Bootstrap, CSS, ES6 Modules, Firebase, Version Control with Github, HTML, Vanilla JavaScript, jQuery, JSON, Lucidchart, Sass, Webpack",
+    "available": true,
+    "url": "https://github.com/ancasimon/bear-watcher",
+    "githubUrl": "https://github.com/ancasimon/nutshell-wookies"
+  },
+  "project7": {
+    "title": "Renaissance Faire",
+    "order": "07",
+    "screenshot": "https://tinyurl.com/ycpqdrfa",
+    "alt": "SCreenshot of the Renaissance Faire site",
+    "description": "This group project gave us the opportunity to better understand how to work with promises and use axios calls to manipulate data in mutliple collections simultaneously. We also got to practice our pair programming skills and proved to be a great group of communicators who shared progress, debugged together, and ensured no one was left behind.",
+    "technologiesUsed": "API, Axios, Bootstrap, CSS, ES6 Modules, Firebase, Version Control with Github, HTML, Vanilla JavaScript, jQuery, JSON, Lucidchart, Sass, Webpack",
+    "available": true,
+    "url": "https://github.com/ancasimon/bear-watcher",
+    "githubUrl": "https://github.com/ancasimon/nutshell-sithlords-wookies"
   }
 }

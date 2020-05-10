@@ -19,7 +19,7 @@ const createProjectCards = () => {
           domString += `<h5 class="card-title">${project.title}</h5>`;
           domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
-          domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
+          domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
           console.error('project id in card', project.id);
           domString += '</div>';
           domString += '</div>';
@@ -43,4 +43,4 @@ const createProjectCardsEvents = () => {
   $('body').on('click', '.btnOpenProjectDetails', openProjectDetails);
 };
 
-export default { createProjectCards, openProjectDetails, createProjectCardsEvents };
+export default { createProjectCards, createProjectCardsEvents };
