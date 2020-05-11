@@ -8,7 +8,13 @@ const createProjectCards = () => {
     .then((projects) => {
       const sortedProjects = projects.sort((a, b) => b.order - a.order);
       console.log('sortedprojects', sortedProjects);
-      let domString = '<div class="d-flex flex-wrap project-container">';
+      let domString = '';
+      domString += '<h2>Projects</h2>';
+      domString += '<hr></hr>';
+      domString += '<div class="sectionIntro">';
+      domString += '<p class="text-center">This section highlights my progress throughout the bootcamp program at the Nashville Software School by showcasing projects I worked on, both individually and in a group setting. As I look back on this list of sites, I remember how exciting it felt to gain new skills and knowledge every week and how exhilarating it also felt to constantly realize how much I still have to learn. That is one of the reasons I love the software development field - I know there will always be new concepts to learn and new skills to practice!</p>';
+      domString += '</div>';
+      domString += '<div class="d-flex flex-wrap project-container">';
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
         if (project.available === true) {
@@ -18,8 +24,10 @@ const createProjectCards = () => {
           domString += '<div class="card-body">';
           domString += `<h4 class="card-title">${project.title}</h4>`;
           domString += `<p class="card-title">${project.briefDescription}</p>`;
+          domString += '<div>';
           domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
           console.error('project id in card', project.id);
           domString += '</div>';
@@ -29,7 +37,7 @@ const createProjectCards = () => {
       });
       domString += '</div>';
       domString += '</div>';
-      utils.printToDom('projectsTable', domString);
+      utils.printToDom('projectsPage', domString);
     })
     .catch((err) => console.error('getProjects broke', err));
 };
