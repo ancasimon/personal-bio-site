@@ -1,7 +1,20 @@
 {
   "project1": {
-    "title": "Patient Tracker",
+    "title": "Battleheart",
     "order": "01",
+    "screenshot": "https://tinyurl.com/yctkrs75",
+    "alt": "Home page of the famous band",
+    "description": "This was our first group project.",
+    "briefDescription": "tbd",
+    "background": "tbd",
+    "technologiesUsed": "Bootstrap, CSS, Github (for version control), HTML, JavaScript (vanilla)",
+    "available": true,
+    "url": "https://patienttracker-5a29e.firebaseapp.com",
+    "githubUrl": "https://github.com/ancasimon/bands-battleheart"
+  },
+  "project2": {
+    "title": "Patient Tracker",
+    "order": "02",
     "screenshot": "https://tinyurl.com/y8mw5qob",
     "alt": "Home page of the dinosaur app",
     "description": "Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the vanilla javascript we learned during our Foundations milestone.",
@@ -11,19 +24,6 @@
     "available": true,
     "url": "https://patienttracker-5a29e.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/dino-kennel"
-  },
-  "project2": {
-    "title": "Battleheart",
-    "order": "02",
-    "screenshot": "https://tinyurl.com/yctkrs75",
-    "alt": "Home page of the famous band",
-    "description": "Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the vanilla javascript we learned during our Foundations milestone.",
-    "briefDescription": "tbd",
-    "background": "tbd",
-    "technologiesUsed": "Bootstrap, CSS, Github (for version control), HTML, JavaScript (vanilla)",
-    "available": true,
-    "url": "https://patienttracker-5a29e.firebaseapp.com",
-    "githubUrl": "https://github.com/ancasimon/bands-battleheart"
   },
   "project3": {
     "title": "Compete",

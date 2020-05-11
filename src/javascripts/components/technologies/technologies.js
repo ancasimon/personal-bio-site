@@ -8,6 +8,8 @@ const createTechPage = () => {
       const sortedTechnologies = technologies.sort((a, b) => a.name - b.name);
       console.error('sorted techs', sortedTechnologies);
       let domString = '';
+      domString += '<h2>Skills</h2>';
+      domString += '<hr></hr>';
       domString += '<div class="container d-flex flex-wrap">';
       domString += '<div class="row">';
       sortedTechnologies.forEach((tech) => {
@@ -19,7 +21,7 @@ const createTechPage = () => {
       domString += '</div>';
       domString += '</div>';
 
-      utils.printToDom('technologiesTable', domString);
+      utils.printToDom('technologiesPage', domString);
     })
     .catch((err) => console.error('could not list technologies', err));
 };
