@@ -15,7 +15,8 @@ const createTechPage = () => {
       sortedTechnologies.forEach((tech) => {
         domString += '<div class="col-sm-4 p-5">';
         domString += `<img src="${tech.imageUrl}" class="techIcon">`;
-        domString += `<h6 >${tech.name}</h6>`;
+        domString += `<h5>${tech.name}</h5>`;
+        domString += `<p class="text-center"><small class="text-muted">${tech.use}</small></p>`;
         domString += '</div>';
       });
       domString += '</div>';

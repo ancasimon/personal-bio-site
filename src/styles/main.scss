@@ -118,9 +118,18 @@ td {
 // }
 
 .modalImage {
-    width: 200px;
+    width: 80%;
 }
 
 .techIcon {
     height: 75px;
 }
+
+.modal-backdrop.show {
+    display: none;
+}
+
+.modal.fade {
+    background-color: grey;
+}
+
