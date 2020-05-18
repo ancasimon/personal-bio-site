@@ -57,7 +57,7 @@
   "tech12": {
     "name": "React Javascript Library",
     "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
-    "use": "(for creating fast adn efficient user interface)"
+    "use": "(for creating fast and efficient user interface)"
   },
   "tech13": {
     "name": "Sass",
