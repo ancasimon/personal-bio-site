@@ -19,7 +19,6 @@ const buildProjectDetails = (projectId) => {
       domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
       domString += '</div>';
       domString += '</div>';
-      domString += '</div>';
 
       utils.printToDom('projectDetails', domString);
     })

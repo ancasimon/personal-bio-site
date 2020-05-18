@@ -124,3 +124,12 @@ td {
 .techIcon {
     height: 75px;
 }
+
+.modal-backdrop.show {
+    display: none;
+}
+
+.modal.fade {
+    background-color: grey;
+}
+

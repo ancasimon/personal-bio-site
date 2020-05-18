@@ -7,7 +7,7 @@ const buildAboutSection = () => {
   domString += '<div class="sectionIntro">';
   domString += '<p class="text-center">I am a Nashville-based software developer, combining extensive business analysis experience with software development skills to make technology work for you!</p>';
   domString += '<p class="text-center">I have worked in the software development arena for over 10 years - initially as a technical writer, later as a business analyst and product manager, and now as a software developer. My experience means that I can effectively contribute to developing technical solutions that meet users\' needs and enhance business value.</p>';
-  domString += '<h4 class="font-italic p-3">Curious to understand why I am doing what I am doing? Read on!</h4>';
+  domString += '<h4 class="font-italic p-3">Curious why I have chosen to make the transition to software development? Read on!</h4>';
   domString += '</div>';
   domString += '<div class="d-flex flex-wrap sectionIntro">';
   domString += '<div class="col-md-4">';
