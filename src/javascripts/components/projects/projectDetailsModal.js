@@ -8,7 +8,7 @@ const buildProjectDetails = (projectId) => {
       let domString = '';
       domString += '<div>';
       domString += `<h2 class="card-title">${project.title}</h2>`;
-      domString += `<img src="${project.screenshot}" class="rounded mx-auto d-block img-thumbnail" alt="${project.alt}">`;
+      domString += `<img src="${project.screenshot}" class="rounded mx-auto d-block img-thumbnail modalImage" alt="${project.alt}">`;
       domString += '<div class="card-body">';
       domString += '<h6>What it is: </h6>';
       domString += `<p class="card-text"><small>${project.description}</small></p>`;
