@@ -6,7 +6,7 @@ import './projects.scss';
 const createProjectCards = () => {
   projectData.getProjects()
     .then((projects) => {
-      const sortedProjects = projects.sort((a, b) => b.order - a.order);
+      const sortedProjects = projects.sort((a, b) => b.sequence - a.sequence);
       console.log('sortedprojects', sortedProjects);
       let domString = '';
       domString += '<h2>Projects</h2>';
