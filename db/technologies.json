@@ -2,77 +2,104 @@
   "tech1": {
     "name": "Bootstrap",
     "imageUrl": "https://img.icons8.com/color/2x/bootstrap.png",
-    "use": "(for out-of-the-box tools, such as grids, modals, etc.)"
+    "use": "(for out-of-the-box tools, such as grids, modals, etc.)",
+    "sequence": 1
   },
   "tech2": {
     "name": "CSS",
     "imageUrl": "https://img.icons8.com/ios-filled/2x/css3.png",
-    "use": "(for controling the display of content)"
+    "use": "(for controling the display of content)",
+    "sequence": 2
   },
   "tech3": {
     "name": "ES6 Modules",
     "imageUrl": "",
-    "use": "(for organizing  files based on purpose and content)"
+    "use": "(for organizing  files based on purpose and content)",
+    "sequence": 3
   },
   "tech4": {
-    "name": "Firebase",
-    "imageUrl": "https://img.icons8.com/color/2x/firebase.png",
-    "use": "(for data management and project deployment)"
+    "name": "ESLint",
+    "imageUrl": "https://miro.medium.com/max/2560/1*NXSzWQyiqhc_jjmyPm94lA.jpeg",
+    "use": "(for fixing the occasional typo! (and much more))",
+    "sequence": 4
   },
   "tech5": {
-    "name": "Github",
-    "imageUrl": "https://img.icons8.com/windows/2x/github.png",
-    "use": "(for version control and project planning)"
+    "name": "Firebase",
+    "imageUrl": "https://img.icons8.com/color/2x/firebase.png",
+    "use": "(for data management and project deployment)",
+    "sequence": 5
   },
   "tech6": {
-    "name": "HTML5",
-    "imageUrl": "https://img.icons8.com/ios-glyphs/2x/html-5.png",
-    "use": "(for displaying content on Web pages)"
+    "name": "Github",
+    "imageUrl": "https://img.icons8.com/windows/2x/github.png",
+    "use": "(for version control and project planning)",
+    "sequence": 6
   },
   "tech7": {
-    "name": "Javascript",
-    "imageUrl": "https://img.icons8.com/color/2x/javascript.png",
-    "use": "(for everything!)"
+    "name": "HTML5",
+    "imageUrl": "https://img.icons8.com/ios-glyphs/2x/html-5.png",
+    "use": "(for displaying content on Web pages)",
+    "sequence": 7
   },
   "tech8": {
-    "name": "jQuery Javascript Library",
-    "imageUrl": "https://img.icons8.com/ios-filled/2x/jquery.png",
-    "use": "(for manipulating data and controlling events in the Document Object Model (DOM))"
+    "name": "Javascript",
+    "imageUrl": "https://img.icons8.com/color/2x/javascript.png",
+    "use": "(for everything!)",
+    "sequence": 8
   },
   "tech9": {
-    "name": "Lucidchart",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR2B4DAg_5bAQ9H8xJEQ9gbvbjcIJ0Na4ocWyLAsJ2G-uk8iv1&usqp=CAU",
-    "use": "(for outlining entity relationship diagrams (ERDs) for a project's data collections and their relationships)"
+    "name": "jQuery Javascript Library",
+    "imageUrl": "https://img.icons8.com/ios-filled/2x/jquery.png",
+    "use": "(for manipulating data and controlling events in the Document Object Model (DOM))",
+    "sequence": 9
   },
   "tech10": {
-    "name": "moqups",
-    "imageUrl": "https://landing.moqups.com/img/logo@2x.png",
-    "use": "(for designing mockups to clarify requirements)"
+    "name": "JSONLint",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvwKi5CkdhHkU1b0cjMuN7PJq03Jy98d2JkBljyUG9OiqIPK_I&usqp=CAU",
+    "use": "(for validating content for JSON files)",
+    "sequence": 10
   },
   "tech11": {
-    "name": "npm",
-    "imageUrl": "https://img.icons8.com/color/2x/npm.png",
-    "use": "(for packaging project files)"
+    "name": "Lucidchart",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR2B4DAg_5bAQ9H8xJEQ9gbvbjcIJ0Na4ocWyLAsJ2G-uk8iv1&usqp=CAU",
+    "use": "(for outlining entity relationship diagrams (ERDs) for a project's data collections and their relationships)",
+    "sequence": 11
   },
   "tech12": {
-    "name": "React Javascript Library",
-    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
-    "use": "(for creating fast and efficient user interface)"
+    "name": "moqups",
+    "imageUrl": "https://landing.moqups.com/img/logo@2x.png",
+    "use": "(for designing mockups to clarify requirements)",
+    "sequence": 12
   },
   "tech13": {
-    "name": "Sass",
-    "imageUrl": "https://img.icons8.com/color/2x/sass.png",
-    "use": "(for building visually appealing CSS extensions)"
+    "name": "npm",
+    "imageUrl": "https://img.icons8.com/color/2x/npm.png",
+    "use": "(for packaging project files)",
+    "sequence": 13
   },
   "tech14": {
-    "name": "Visual Studio Code",
-    "imageUrl": "https://img.icons8.com/color/2x/visual-studio-code-2019.png",
-    "use": "(for writing and editing code and debugging)"
+    "name": "React Javascript Library",
+    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
+    "use": "(for creating fast and efficient user interface)",
+    "sequence": 14
   },
   "tech15": {
+    "name": "Sass",
+    "imageUrl": "https://img.icons8.com/color/2x/sass.png",
+    "use": "(for building visually appealing CSS extensions)",
+    "sequence": 15
+  },
+  "tech16": {
+    "name": "Visual Studio Code",
+    "imageUrl": "https://img.icons8.com/color/2x/visual-studio-code-2019.png",
+    "use": "(for writing and editing code and debugging)",
+    "sequence": 16
+  },
+  "tech17": {
     "name": "Webpack",
     "imageUrl": "https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.png",
-    "use": "(for bundling project files and development dependencies)"
+    "use": "(for bundling project files and development dependencies)",
+    "sequence": 17
   }
 }
   

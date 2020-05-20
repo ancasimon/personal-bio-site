@@ -5,8 +5,7 @@ import utils from '../../helpers/utils';
 const createTechPage = () => {
   technologiesData.getTechnologies()
     .then((technologies) => {
-      const sortedTechnologies = technologies.sort((a, b) => a.name - b.name);
-      console.error('sorted techs', sortedTechnologies);
+      const sortedTechnologies = technologies.sort((a, b) => a.sequence - b.sequence);
       let domString = '';
       domString += '<h2>Skills</h2>';
       domString += '<hr></hr>';

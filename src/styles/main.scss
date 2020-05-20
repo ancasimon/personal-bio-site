@@ -79,20 +79,6 @@ a :active {
 p {
     text-align: left;
 }
-/* .detailsSection {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex: 1 1 30%;
-}
-
-.details {
-    border: 2px solid gray;
-    width: 20%;
-    height: auto;
-
-} */
 
 ul {
     text-align: left;
@@ -113,10 +99,6 @@ td {
     justify-content: space-evenly;
 }
 
-// .project-card {
-//     width: 30%;
-// }
-
 .modalImage {
     width: 80%;
 }
@@ -130,6 +112,6 @@ td {
 }
 
 .modal.fade {
-    background-color: grey;
+    background: radial-gradient(circle, grey, lightgrey, grey);
 }
 
