@@ -15,7 +15,7 @@ This is my personal portfolio site. It allows visitors to my site to learn about
 ##### Contact Page
 ![Contact Page](./personal-bio-screenshots/contact.png)
 
-###### Image Sources
+###### Sources of Icon Images for the Skills section
 * https://icons8.com/icons/pack/user-interface 
 * https://github.com/FortAwesome/Font-Awesome/tree/master/svgs 
 
@@ -27,4 +27,4 @@ This is my personal portfolio site. It allows visitors to my site to learn about
 
 ## Firebase Deployment
 This project has been deployed with Firebase. 
-You can access it [here](https://pinterest-4b62d.web.app/). 
+You can access it here: https://asimonbio.firebaseapp.com/. 
