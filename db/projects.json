@@ -11,7 +11,7 @@
     "available": true,
     "url": "https://battleheart-475aa.firebaseapp.com/",
     "githubUrl": "https://github.com/ancasimon/bands-battleheart",
-    "date": "February 5, 2020"
+    "date": "February 2020"
   },
   "project2": {
     "title": "Patient Tracker",
@@ -25,7 +25,7 @@
     "available": true,
     "url": "https://patienttracker-5a29e.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/dino-kennel",
-    "date": "February 22, 2020"
+    "date": "February 2020"
   },
   "project3": {
     "title": "Compete",
@@ -39,7 +39,7 @@
     "available": true,
     "url": "https://compete-9be14.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/bear-watcher",
-    "date": "February 26, 2020"
+    "date": "February 2020"
   },
   "project4": {
     "title": "Sundew Smoozer",
@@ -53,7 +53,7 @@
     "available": true,
     "url": "https://sundews-7cdbf.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/chatty-sundews",
-    "date": "March 16, 2020"
+    "date": "March 2020"
   },
   "project5": {
     "title": "Foodies Unite",
@@ -61,13 +61,13 @@
     "screenshot": "https://tinyurl.com/yagtlq6k",
     "alt": "Pinterest-like app with a food theme",
     "description": "This project is an exploration into using a Firebase database for user authentication and data management. It is a site similar to a much simplified version of Pinterest, and it includes meal recommendations for various places around the US and the world.",
-    "briefDescription": "This project is an exploration into using a Firebase database for user authentication and data management. It is a site similar to a much simplified version of Pinterest, and it includes meal recommendations for various places around the US and the world.",
+    "briefDescription": "This Pinterest-like includes meal recommendations for various places around the US and the world.",
     "background": "This project has taught me so much - probably more than any of the projects I have embarked on so far at NSS. From starting to use Firebase for data management, Google authentication, and deployment, to making Promises and learning how to explain the story of such Axios calls to really grasping the relationship between the code in different component and data folders, learning how to debug with a whole new level of complexity and attention to detail, the nuances and getting and setting data and accessing properties of the data returned from Firebase, better understanding the relationship between different data collections through ERDs, and so much more - it has been so exciting to delve in at the beginning of each phase of this project and slowly emerge with new knowledge, tips, and tricks each time. This project represents our progress during the Data-Driven Apps (and third) stage in our program.",
     "technologiesUsed": "Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, moment.js, moqups, Sass, Webpack",
     "available": true,
     "url": "https://pinterest-4b62d.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/pinterest",
-    "date": "March 30, 2020"
+    "date": "March 2020"
   },
   "project6": {
     "title": "Travel Diary",
@@ -81,7 +81,7 @@
     "available": true,
     "url": "https://github.com/ancasimon/bear-watcher",
     "githubUrl": "https://github.com/ancasimon/travel-diary",
-    "date": "April 1, 2020"
+    "date": "April 2020"
   },
   "project7": {
     "title": "Nautilus Explorer",
@@ -95,7 +95,7 @@
     "available": true,
     "url": "https://ancanautilus.web.app/",
     "githubUrl": "https://github.com/ancasimon/nutshell-wookies",
-    "date": "April 20, 2020"
+    "date": "April 2020"
   },
   "project8": {
     "title": "Renaissance Faire",
@@ -109,6 +109,6 @@
     "available": true,
     "url": "https://ancarenfaire.web.app/",
     "githubUrl": "https://github.com/ancasimon/nutshell-sithlords-wookies",
-    "date": "May 6, 2020"
+    "date": "May 2020"
   }
 }
