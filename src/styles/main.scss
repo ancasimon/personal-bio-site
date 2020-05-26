@@ -7,7 +7,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     color: black;
-    margin-left: 0;
     text-align: center;
     min-height: 400px;
 }
@@ -31,8 +30,12 @@ h2 {
     padding-top: 100px;
 }
 
-.full-img {
-    width: 100%;
+.jumbo {
+    @media (max-width: 1000px) {
+        width: 100%;;
+        height: 400px;
+        object-fit:cover;
+    }
 }
 
 .sectionIntro {
@@ -113,5 +116,10 @@ td {
 
 .modal.fade {
     background: radial-gradient(circle, grey, lightgrey, grey);
+}
+
+.modalContainer {
+    width: 60%;
+    margin: auto;
 }
 

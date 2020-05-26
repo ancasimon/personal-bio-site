@@ -11,11 +11,11 @@ const buildProjectDetails = (projectId) => {
       domString += `<img src="${project.screenshot}" class="rounded mx-auto d-block img-thumbnail modalImage" alt="${project.alt}">`;
       domString += '<div class="card-body">';
       domString += '<h6>What it is: </h6>';
-      domString += `<p class="card-text"><small>${project.description}</small></p>`;
+      domString += `<p class="card-text text-center"><small>${project.description}</small></p>`;
       domString += '<h6>What I learned: </h6>';
-      domString += `<p class="card-text"><small>${project.background}</small></p>`;
+      domString += `<p class="card-text text-center"><small>${project.background}</small></p>`;
       domString += '<h6>Tools & technologies: </h6>';
-      domString += `<p class="card-text"><small>${project.technologiesUsed}</small></p>`;
+      domString += `<p class="card-text text-center"><small>${project.technologiesUsed}</small></p>`;
       domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
       domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
       domString += '</div>';

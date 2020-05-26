@@ -12,7 +12,7 @@ const createTechPage = () => {
       domString += '<div class="container d-flex flex-wrap">';
       domString += '<div class="row">';
       sortedTechnologies.forEach((tech) => {
-        domString += '<div class="col-sm-4 p-5">';
+        domString += '<div class="col-lg-4 col-6 p-5">';
         domString += `<img src="${tech.imageUrl}" class="techIcon">`;
         domString += `<h5>${tech.name}</h5>`;
         domString += `<p class="text-center"><small class="text-muted">${tech.use}</small></p>`;

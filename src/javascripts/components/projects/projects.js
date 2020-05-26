@@ -18,7 +18,7 @@ const createProjectCards = () => {
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
         if (project.available === true) {
-          domString += '<div class="col-md-4 p-5">';
+          domString += '<div class="col-md-4 p-2">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
           domString += '<div class="card-body">';

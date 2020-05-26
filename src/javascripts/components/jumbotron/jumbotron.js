@@ -5,8 +5,8 @@ import ancaCharliesBunion from '../../../img-personal-bio-site/Anca_Charlies_Bun
 
 const buildJumbotron = () => {
   let domString = '';
-  domString += '<div class="card bg-dark text-white">';
-  domString += `<img id="jumbo-pic" src=${ancaCharliesBunion} alt="developer on top of Chalies Bunion, Smoky Mtns" class="card-img full-img img-fluid">`;
+  domString += '<div class="bg-dark text-white">';
+  domString += `<img id="jumbo-pic" src=${ancaCharliesBunion} alt="developer on top of Chalies Bunion, Smoky Mtns" class="img jumbo">`;
   domString += '</div>';
   utils.printToDom('jumbo-div', domString);
 };
