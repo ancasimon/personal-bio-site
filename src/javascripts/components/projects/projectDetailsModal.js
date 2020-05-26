@@ -14,7 +14,8 @@ const buildProjectDetails = (projectId) => {
       domString += `<p class="card-text"><small>${project.description}</small></p>`;
       domString += '<h6>What I learned: </h6>';
       domString += `<p class="card-text"><small>${project.background}</small></p>`;
-      domString += `<h6 class="card-text">${project.technologiesUsed}</h6>`;
+      domString += '<h6>Tools & technologies: </h6>';
+      domString += `<p class="card-text"><small>${project.technologiesUsed}</small></p>`;
       domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
       domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
       domString += '</div>';

@@ -23,8 +23,9 @@ const createProjectCards = () => {
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
           domString += '<div class="card-body">';
           domString += `<h4 class="card-title">${project.title}</h4>`;
-          domString += `<p class="card-title">${project.briefDescription}</p>`;
           domString += `<p class="card-title text-center"><small class="text-muted">${project.date}</small></p>`;
+          domString += `<p class="card-title">${project.briefDescription}</p>`;
+          domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
           domString += '<div>';
           domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
