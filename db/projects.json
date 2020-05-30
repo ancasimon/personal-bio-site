@@ -110,5 +110,19 @@
     "url": "https://ancarenfaire.web.app/",
     "githubUrl": "https://github.com/ancasimon/nutshell-sithlords-wookies",
     "date": "May 2020"
+  },
+  "projectp": {
+    "title": "Pick-Your-Own Mushroom Encounter",
+    "sequence": 9,
+    "screenshot": "https://tinyurl.com/yc4a6bwl",
+    "alt": "Screenshot of the Mushroom Picker app",
+    "description": "This was our first venture into React. Our Mushroom-Picker project was intended to give us the opportunity to familiarize ourselves with using state and props in React, understand how data gets transferred across files, and learn how to manipulate the display in the component files.",
+    "briefDescription": "We're going mushroom picking! Our first venture using React, this app allows you to pick random mushrooms from the forest and add them to your basket. However, surprises lie ahead! Find out what happens when you get a deadly, poisonous, or a magic mushroom!", 
+    "background": "From really starting to grasp the concepts of state and props to learning how to pass data into individual components and how to make updates as well as how to control CSS based on React component attributes to having more fun with CSS in order to meet the project requirements for highlighting the deadly mushroom selection and the full basket scenarios, this project gave me the opportunity to both learn new concepts and practice current skills.",
+    "technologiesUsed": "Bootstrap, CSS, ES6 Modules, ESLint, Github, HTML5, JavaScript, React, Sweetalert2, Webpack",
+    "available": true,
+    "url": "https://mushroompicker-20347.web.app/",
+    "githubUrl": "https://github.com/ancasimon/mushroom-picker",
+    "date": "May 2020"
   }
 }
