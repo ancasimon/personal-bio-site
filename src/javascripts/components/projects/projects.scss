@@ -26,21 +26,3 @@
   border: 3px double grey;
   border-radius: 30px;
 }
-
-// .projectsEnter {
-//   visibility: hidden;
-//   opacity: 0;
-//   transition: visibility 50000s, opacity 1s linear;
-// }
-
-// .animatedDiv {
-//   transition: opacity 1s ease-out;
-//   opacity: 0;
-//   height: 0;
-//   overflow: hidden;
-// }
-.animatedDiv:active {
-  transition: display 500s ease-in 500s;
-  // opacity: 1;
-  // height: auto;
-}

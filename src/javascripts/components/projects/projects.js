@@ -51,7 +51,7 @@ const getIndividualProjects = (e) => {
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
         if (project.group === false && project.capstone === false) {
-          domString += '<div class="col-md-4 p-2 animatedDiv">';
+          domString += '<div class="col-md-4 p-2">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
           domString += '<div class="card-body">';
