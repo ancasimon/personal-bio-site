@@ -1,5 +1,6 @@
 import utils from '../../helpers/utils';
 
+import '../../../styles/_animations.scss';
 import './about.scss';
 
 const buildAboutSection = () => {
@@ -8,7 +9,15 @@ const buildAboutSection = () => {
   domString += '<hr></hr>';
   domString += '<div class="sectionIntro">';
   domString += '<p class="text-center">I am a Nashville-based software developer, combining extensive business analysis experience with software development skills to make technology work for you!</p>';
+
+  domString += '<div class="animatedButtonDiv m-4">';
+  domString += '<button class="animatedButton">';
   domString += '<a href="https://www.linkedin.com/in/anca-simon/" target="_blank" class="btn btn-light blueButton">Download my resume</a>';
+  domString += '<div class="animatedButton__horizontal"></div>';
+  domString += '<div class="animatedButton__vertical"></div>';
+  domString += '</button>';
+  domString += '</div>';
+
   domString += '<h6 class="font-italic pt-3">Why software development?</h6>';
   domString += '</div>';
   domString += '<div class="d-flex flex-wrap sectionIntro p-2">';
