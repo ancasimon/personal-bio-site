@@ -25,7 +25,6 @@ const getFeaturedProjects = () => {
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
           domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
-          console.error('project id in card', project.id);
           domString += '</div>';
           domString += '</div>';
           domString += '</div>';
@@ -63,7 +62,6 @@ const getIndividualProjects = (e) => {
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
           domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
-          console.error('project id in card', project.id);
           domString += '</div>';
           domString += '</div>';
           domString += '</div>';
@@ -101,7 +99,6 @@ const getGroupProjects = (e) => {
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
           domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
-          console.error('project id in card', project.id);
           domString += '</div>';
           domString += '</div>';
           domString += '</div>';

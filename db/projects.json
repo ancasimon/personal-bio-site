@@ -1,29 +1,13 @@
 {
   "project1": {
-    "title": "Battleheart",
-    "sequence": 1,
-    "screenshot": "https://tinyurl.com/yctkrs75",
-    "alt": "Home page of the Battleheart band website",
-    "description": "This project was our cohort’s first group project and our introduction to using Github for project planning. For this project, we built a website for a music band, using Bootstrap, CSS, and Vanilla Javascript, and learning how to manage calls for multiple HTML pages in a single Javascript file.",
-    "briefDescription": "Our first group project was a website for a music band, using Bootstrap, CSS, and Vanilla Javascript, and learning how to manage calls for multiple HTML pages in a single Javascript file.",
-    "background": "This project gave us the opportunity to learn how to use Github when multiple developers work on the same project. We used Github for project planning, planning out development tickets, writing user stories and development notes, and tracking each ticket throughout the development cycle. I worked on the Bio site, which displays a brief history of the band and a biography and photo of each band member, as well as the Fans page. I used CSS Flexbox for organizing our data, such as the biography cards, and For loops and template literals for displaying the data dynamically. I had fun introducing flip cards for the Bio page and learning about overlaying elements on the Fans page.",
-    "technologiesUsed": "Bootstrap, CSS, Github, HTML5, Vanilla JavaScript",
-    "available": true,
-    "url": "https://battleheart-475aa.firebaseapp.com/",
-    "githubUrl": "https://github.com/ancasimon/bands-battleheart",
-    "date": "February 2020",
-    "group": true,
-    "capstone": false
-  },
-  "project2": {
     "title": "Patient Tracker",
-    "sequence": 2,
+    "sequence": 1,
     "screenshot": "https://tinyurl.com/y8mw5qob",
     "alt": "Home page of the Dinosaur Patient Tracker app",
     "description": "This application tracks patients at a pet dinosaur veterinary clinic. This project showcases the Vanilla Javascript and additional tools we learned during the first part, the Foundations milestone, in our front-end bootcamp program at the Nashville Software School.",
     "briefDescription": "Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the Vanilla Javascript we learned during our Foundations milestone.",
-    "background": "This project helped solidify my knowledge of several tools and technologies:  --  CSS and Bootstrap tools specifically (in particular, Flexbox for organizing content, the accordion component for accessing data inputs, modals for prompting the user with alerts about data required in the form inputs, forms and their own quirks - such as preventing the default behavior of a form upon submission, progress bars and displaying the data that controls them);  --  New coding requirements, such as creating new objects, calling arrays within arrays, and applying event listeners;  --  Using additional Javascript methods such as .findIndex(), .filter(), .reset() for a form and Math.random();  --  Starting to use jQuery library;  --  Using FontAwesome to make logo and button icons more visually appealing;  --  Using Google photos to ensure my personal images would get displayed correctly",
-    "technologiesUsed": "Bootstrap, CSS, Github, HTML5, JavaScript, jQuery",
+    "background": "This project helped solidify my knowledge of several tools and technologies, such as CSS Flexbox, Bootstrap accordions, modals, and forms, jQuery event listeners, additional Javascript methods, and FontAwesome for making logo and button icons more visually appealing.",
+    "technologiesUsed": "Bootstrap, CSS, FontAwesome, Github, HTML5, JavaScript, jQuery",
     "available": true,
     "url": "https://patienttracker-5a29e.firebaseapp.com",
     "githubUrl": "https://github.com/ancasimon/dino-kennel",
@@ -31,14 +15,14 @@
     "group": false,
     "capstone": false
   },
-  "project3": {
+  "project2": {
     "title": "Compete",
-    "sequence": 3,
+    "sequence": 2,
     "screenshot": "https://tinyurl.com/ybvdp9bs",
     "alt": "Bears catching fish",
-    "description": "This project was a culmination of what we learned during the second milestone (Patterns & Tools) in our front-end bootcamp program. It allows the park rangers in Alaska's Katmai National Park to track brown bear feeding behavior during salmon season in July and August, keep a record of the bears' attempts and successes catching fish, and quickly identify the winners.",
+    "description": "This app allows the park rangers in Alaska's Katmai National Park to track brown bear feeding behavior during salmon season in July and August, keep a record of the bears' attempts and successes catching fish, and quickly identify the winners.",
     "briefDescription": "Want to track statistics and see the winners? Compete is your app! It allows park rangers to track brown bear feeding behavior, keep a record of attempts and succeses, and identify the winners. This project is an exploration into using ES6 modules. Bear-y nice!",
-    "background": "This project allowed us to practice our most recently acquired skills of organizing our project files based on their purpose - whether they manipulate data or control the display on a page or include code to run utilities and then import that content accordingly only when necessary. In addition, I explored some new Javascript methods, such as .reduce() and Object.values() methods , in sequence to group bear objects by key value to identify those with the highest fish count and dynamically update the awards list on the site. We also started writing getter and setter methods for retrieving and updating data in the data file.",
+    "background": "This project was an opportunity to practice the ES6 Modules file structure, continue to expand our Javascript and jQuery skills, and writing getter and setter methods for retrieving and updating data.",
     "technologiesUsed": "Bootstrap, CSS, ES6 Modules, Github, HTML5, JavaScript, jQuery",
     "available": true,
     "url": "https://compete-9be14.firebaseapp.com",
@@ -47,14 +31,14 @@
     "group": false,
     "capstone": false
   },
-  "project4": {
+  "project3": {
     "title": "Sundew Smoozer",
-    "sequence": 4,
+    "sequence": 3,
     "screenshot": "https://tinyurl.com/y7f6t78o",
     "alt": "Messaging app with a sundew flower theme",
     "description": "Sundew Smoozer is a messaging application. Users can select a user profile, add a message to the conversation, and delete one of their own messages. The user’s message gets validated to make sure it includes content; otherwise, the user is prompted with a popup informing him that he needs to add a message to send one. Additional options include clearing all messages, changing the site color theme to a dark mode, and enlarging the font size. ",
     "briefDescription": "Message with your friends! Peruse their conversation and see what you've missed! Delete a message if you inadvertantly sent it! Sundew Smoozer is a messaging application that gives you these tools. Users can select a user profile, add a message to the conversation, and delete one of their own messages.",
-    "background": "Our conclusion to the Patterns & Tools milestone, this project was an opportunity to hone our skills of working together in the same codebase, sequenceing tickets as necessary based on dependencies, organizing project files into the appropriate structure following ES6 module setup, introducing SCSS extensions in our code, using jQuery more extensively, and standardizing our code by using ESLint. My contributions to this project included:  --  The functionality to add a new message by typing in text and pressing the Enter key;  --  Validating that there is text so that blank messages do not get added to the conversation by mistake;  --  Adding the modal that gives users the ability to change the color of the font and page display;  --  Adding a Clear button to quickly delete all current messages;  --  Making message cards responsive;  --  Filtering access to deleting individual messages so that users can delete only the messages they wrote",
+    "background": "This group project was an opportunity to hone our skills of working together in the same codebase, follow ES6 Modules file structure, introduce SCSS extensions in our code, use jQuery more extensively, and standardize our code by starting to follow ESLint rules. My contributions to this project included adding a new message by typing in text and pressing the Enter key, validating the message, the ability to change the color theme, and  the ability to clear all current messages with a click, making messages responsive, and ensuring that users can delete only the messages they wrote.",
     "technologiesUsed": "Bootstrap, CSS, ES6 Modules, ESLint, Github, HTML5, JavaScript, jQuery, moment.js, SASS, Webpack",
     "available": true,
     "url": "https://sundews-7cdbf.firebaseapp.com",
@@ -63,14 +47,14 @@
     "group": true,
     "capstone": false
   },
-  "project5": {
+  "project4": {
     "title": "Foodies Unite",
-    "sequence": 5,
+    "sequence": 4,
     "screenshot": "https://tinyurl.com/yagtlq6k",
     "alt": "Pinterest-like app with a food theme",
     "description": "This project is an exploration into using a Firebase database for user authentication and data management. It is a site similar to a much simplified version of Pinterest, and it includes meal recommendations for various places around the US and the world.",
     "briefDescription": "This is my version of Pinterest, and it's all about food! It includes delicious meal recommendations for various places around the US and the world.",
-    "background": "This project has taught me so much - probably more than any of the projects I have embarked on so far at NSS. From starting to use Firebase for data management, Google authentication, and deployment, to making Promises and learning how to explain the story of such Axios calls to really grasping the relationship between the code in different component and data folders, learning how to debug with a whole new level of complexity and attention to detail, the nuances and getting and setting data and accessing properties of the data returned from Firebase, better understanding the relationship between different data collections through ERDs, and so much more - it has been so exciting to delve in at the beginning of each phase of this project and slowly emerge with new knowledge, tips, and tricks each time. This project represents our progress during the Data-Driven Apps (and third) stage in our program.",
+    "background": "This project gave me the opportunity to start using Firebase for data management, Google authentication, and deployment, make Promises and learn how to explain the story of such Axios calls, really grasp the relationship between the code in different component and data folders, learn how to debug with a whole new level of complexity and attention to detail, better understand the nuances of getting and setting data, better comprehend the relationship between data collections through ERDs, and so much more - it has been exciting to delve in at the beginning of each phase of this project and slowly emerge with new knowledge, tips, and tricks each time.",
     "technologiesUsed": "Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, moment.js, moqups, Sass, Webpack",
     "available": true,
     "url": "https://pinterest-4b62d.firebaseapp.com",
@@ -79,14 +63,14 @@
     "group": false,
     "capstone": false
   },
-  "project6": {
+  "project5": {
     "title": "Travel Diary",
-    "sequence": 6,
+    "sequence": 5,
     "screenshot": "https://tinyurl.com/yc99ay2l",
     "alt": "Travel Diary",
-    "description": "The Travel Diary app was a bonus project I tackled during our spring break. It is an online journal that allows users to keep track of destinations on their bucket list and then capture diary entries when they actually get to visit these sites.",
+    "description": "The Travel Diary app is an online journal that allows users to keep track of destinations on their bucket list and then capture diary entries when they actually get to visit these sites.",
     "briefDescription": "Most of us love to travel - near or far, there are always thoughts we want to capture and reminisce about later on. The Travel Diary app allows you to keep track of destinations you want to visit and easily capture your impressions once there.",
-    "background": "This project was a great opportunity to keep practicing my skills manipulating data across multiple collections in a Firebase database. It helped me improve my ability to outline the logic and code for what we at NSS call \"smash\" functions, that is, functions that pull data from multiple collections; it also helped me get even more comfortable with various CSS components such as Bootstrap modals and Javascript elements, such as .parse() methods and the spread operator.",
+    "background": "This project was a great opportunity to keep practicing my skills manipulating data across multiple collections in a Firebase database. It helped me improve my ability to outline the logic and code for getting data from multiple collections; it also helped me get even more comfortable with various CSS components as well as Javascript and jQuery elements.",
     "technologiesUsed": "Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, Sass, Webpack",
     "available": true,
     "url": "https://github.com/ancasimon/bear-watcher",
@@ -95,14 +79,14 @@
     "group": false,
     "capstone": false
   },
-  "project7": {
+  "project6": {
     "title": "Nautilus Explorer",
-    "sequence": 7,
+    "sequence": 6,
     "screenshot": "https://tinyurl.com/ybtmo9kd",
     "alt": "Drawing of the Nautilus submarin interior",
-    "description": "This was the first group project in the Data-Driven Apps stage of our bootcamp program and gave us the opportunity to practice and enhance our understanding of CRUD processes.",
-    "briefDescription": "Welcome aboard! This application is a dashboard for the captain and crew of the Nautilus Explorer, allowing them to keep track of the vessel's crew members, destinations, as well as species and environmental data identified during their journey.",
-    "background": "As a team, we learned how to work together even better than before - we provided more details about the pull requests to make sure no one was surprised by changes and got better at following processes for checking in and merging code so we don’t have that huge conflicts and problems later on. Personally, I learned how to debug even better, became better at explaining the relationship between component files, improved my understanding of nuances such as setting and getting values of checkboxes on a form and prepopulating data on edit forms. I was responsible for the user authentication code, CRUD features on the Destinations collection, and the CSS for the Dashoard and the template we followed for the pages for each collection. It was fun trying out new CSS styling options - such as the overlaid text on the Dashboard page, the typewriter effect on the page headers, and using transparency.",
+    "description": "This application is a dashboard for the captain and crew of the Nautilus Explorer, allowing them to keep track of the vessel's crew members, destinations, as well as species and environmental data identified during their journey. This group project gave us the opportunity to practice and enhance our understanding of CRUD processes.",
+    "briefDescription": "Welcome aboard! Join Captain Nemo and his crew as they journey to destinations across the world in order to conduct progressive scientific research.",
+    "background": "In this group project, I was responsible for the user authentication code, CRUD features on the Destinations collection, and the CSS for the Dashoard and the page template. It was fun trying out new CSS styling options - such as the overlaid text on the Dashboard page and the typewriter effect for the page headers. As a team, we got even better at project planning and code management. Personally, I learned how to debug better, became better at explaining the code, and improved my understanding of elements such as forms.",
     "technologiesUsed": "Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, FreeLogoDesign, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, moment.js, moqups, Sass, Webpack",
     "available": true,
     "url": "https://ancanautilus.web.app/",
@@ -111,14 +95,14 @@
     "group": true,
     "capstone": false
   },
-  "project8": {
+  "project7": {
     "title": "Renaissance Faire",
-    "sequence": 8,
+    "sequence": 7,
     "screenshot": "https://tinyurl.com/ybaufkoz",
     "alt": "Screenshot of the Renaissance Faire site",
     "description": "This app allows the owners of a company that organizes Renaissance Fairs across the country to see the status of their fairs. They are able to see the food products, souvenirs, staff, and shows available at each fair as well as review graphs and details of the costs of each type of service provided.",
     "briefDescription": "Calling all knights and dames, Renaissance Faire time is upon us! If you want the most impressive \"carouse\" in your town, be sure to engage the services of this Renaissance Faire planning business. \"Prithee, sit you down and have a laugh!\" ", 
-    "background": "This group project gave us the opportunity to better understand how to work with promises and use axios calls to manipulate data in multiple collections simultaneously. We also got to practice our pair programming skills and proved to be a great group of communicators who shared progress, debugged together, and ensured no one was left behind. My individual contributions included:  --  Completing the READ feature for the Events collection;  --  Adding a new page for viewing a single event's details;  --  Owning the Food collection for an event, which included completing the features for viewing the food on an event, adding new food items to an event, and deleting a food item from an event;  --  Completing the READ and CREATE features for the Animals collection, which we added later on when a new team member joined our group;  --  Pair programming with teammate on calculating costs for each data collection in an event;  --  Allowing users to filter event data by price range;  --  Figuring out the big function with the Promise that pulled all the different data for an event at the same time.",
+    "background": "This group project gave us the opportunity to better understand how to work with promises and use Axios calls to manipulate data in multiple collections simultaneously. We also got to practice our pair programming skills and proved to be a great group of communicators who shared progress, debugged together, and ensured no one was left behind. My individual contributions included completing CRUD functions on multiple collections, adding a new page for viewing an event's details, filtering event data by price range, and figuring out the big function that displayed all the event data simultaneously.",
     "technologiesUsed": "Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, Sass, Webpack",
     "available": true,
     "url": "https://ancarenfaire.web.app/",
@@ -127,13 +111,13 @@
     "group": true,
     "capstone": false
   },
-  "project9": {
-    "title": "Pick-Your-Own Mushroom Encounter",
-    "sequence": 9,
+  "project8": {
+    "title": "A Mushroom Picker's Adventures",
+    "sequence": 8,
     "screenshot": "https://tinyurl.com/yc4a6bwl",
     "alt": "Screenshot of the Mushroom Picker app",
     "description": "This was our first venture into React. Our Mushroom-Picker project was intended to give us the opportunity to familiarize ourselves with using state and props in React, understand how data gets transferred across files, and learn how to manipulate the display in the component files.",
-    "briefDescription": "We're going mushroom picking! Our first venture using React, this app allows you to pick random mushrooms from the forest and add them to your basket. However, surprises lie ahead! Find out what happens when you get a deadly, poisonous, or a magic mushroom!", 
+    "briefDescription": "We're going mushroom picking! Our first venture using React, this app allows you to fill your basket with random mushrooms from the forest. However, surprises lie ahead! Find out what happens when you choose a deadly, poisonous, or a magic mushroom!", 
     "background": "From really starting to grasp the concepts of state and props to learning how to pass data into individual components and how to make updates as well as how to control CSS based on React component attributes to having more fun with CSS in order to meet the project requirements for highlighting the deadly mushroom selection and the full basket scenarios, this project gave me the opportunity to both learn new concepts and practice current skills.",
     "technologiesUsed": "Bootstrap, CSS, ES6 Modules, ESLint, Github, HTML5, JavaScript, React, Sweetalert2, Webpack",
     "available": true,
@@ -143,9 +127,9 @@
     "group": false,
     "capstone": false
   },
-  "project10": {
+  "project9": {
     "title": "Front-End CAPSTONE",
-    "sequence": 10,
+    "sequence": 9,
     "screenshot": "https://avatars3.githubusercontent.com/u/59633395?s=460&u=641b13076629e146468941dc9efa4c2953a2f4fb&v=4",
     "alt": "tbd",
     "description": "tbd",
@@ -159,7 +143,7 @@
     "group": false,
     "capstone": true
   },
-  "project11": {
+  "project10": {
     "title": "Back-End CAPSTONE",
     "sequence": 10,
     "screenshot": "https://avatars3.githubusercontent.com/u/59633395?s=460&u=641b13076629e146468941dc9efa4c2953a2f4fb&v=4",
