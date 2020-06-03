@@ -3,21 +3,15 @@ import projectData from '../../helpers/data/projectData';
 import projectDetails from './projectDetailsModal';
 import './projects.scss';
 
-const createProjectCards = () => {
+const getFeaturedProjects = () => {
   projectData.getProjects()
     .then((projects) => {
       const sortedProjects = projects.sort((a, b) => b.sequence - a.sequence);
-      console.log('sortedprojects', sortedProjects);
       let domString = '';
-      domString += '<h2>Projects</h2>';
-      domString += '<hr></hr>';
-      domString += '<div class="sectionIntro">';
-      domString += '<p class="text-center">This section highlights my progress throughout the bootcamp program at the Nashville Software School by showcasing projects I worked on, both individually and in a group setting. As I look back on this list of sites, I remember how exciting it felt to gain new skills and knowledge every week and how exhilarating it also felt to constantly realize how much I still have to learn. That is one of the reasons I love the software development field - I know there will always be new concepts to learn and new skills to practice!</p>';
-      domString += '</div>';
-      domString += '<div class="d-flex flex-wrap project-container">';
+      domString += '<div class="container d-flex flex-wrap project-container fade show">';
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
-        if (project.available === true) {
+        if (project.capstone === true) {
           domString += '<div class="col-md-4 p-2">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
@@ -31,18 +25,124 @@ const createProjectCards = () => {
           domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
           domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
-          console.error('project id in card', project.id);
           domString += '</div>';
           domString += '</div>';
           domString += '</div>';
+
+          utils.printToDom('projectsDiv', domString);
         }
       });
       domString += '</div>';
       domString += '</div>';
-      utils.printToDom('projectsPage', domString);
     })
-    .catch((err) => console.error('getProjects broke', err));
+    .catch((err) => console.error('getFeaturedProjects broke', err));
 };
+
+
+const getIndividualProjects = (e) => {
+  e.preventDefault();
+  projectData.getProjects()
+    .then((projects) => {
+      const sortedProjects = projects.sort((a, b) => b.sequence - a.sequence);
+      let domString = '';
+      domString += '<div class="container d-flex flex-wrap project-container">';
+      domString += '<div class="row">';
+      sortedProjects.forEach((project) => {
+        if (project.group === false && project.capstone === false) {
+          domString += '<div class="col-md-4 p-2">';
+          domString += '<div class="card project-card">';
+          domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
+          domString += '<div class="card-body">';
+          domString += `<h4 class="card-title">${project.title}</h4>`;
+          domString += `<p class="card-title text-center"><small class="text-muted">${project.date}</small></p>`;
+          domString += `<p class="card-title">${project.briefDescription}</p>`;
+          domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
+          domString += '<div>';
+          domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
+          domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          domString += '</div>';
+          domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
+          domString += '</div>';
+          domString += '</div>';
+          domString += '</div>';
+
+          utils.printToDom('projectsDiv', domString);
+        }
+      });
+      domString += '</div>';
+      domString += '</div>';
+    })
+    .catch((err) => console.error('getIndividualProjects broke', err));
+};
+
+
+const getGroupProjects = (e) => {
+  e.preventDefault();
+  projectData.getProjects()
+    .then((projects) => {
+      const sortedProjects = projects.sort((a, b) => b.sequence - a.sequence);
+      let domString = '';
+      domString += '<div class="container d-flex flex-wrap project-container">';
+      domString += '<div class="row">';
+      sortedProjects.forEach((project) => {
+        if (project.group === true) {
+          domString += '<div class="col-md-4 p-2">';
+          domString += '<div class="card project-card">';
+          domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
+          domString += '<div class="card-body">';
+          domString += `<h4 class="card-title">${project.title}</h4>`;
+          domString += `<p class="card-title text-center"><small class="text-muted">${project.date}</small></p>`;
+          domString += `<p class="card-title">${project.briefDescription}</p>`;
+          domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
+          domString += '<div>';
+          domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
+          domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          domString += '</div>';
+          domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
+          domString += '</div>';
+          domString += '</div>';
+          domString += '</div>';
+
+          utils.printToDom('projectsDiv', domString);
+        }
+      });
+      domString += '</div>';
+      domString += '</div>';
+    })
+    .catch((err) => console.error('getGroupProjects broke', err));
+};
+
+const createProjectCards = () => {
+  let domString = '';
+  domString += '<h2>Portfolio</h2>';
+  domString += '<hr></hr>';
+  domString += '<div class="sectionIntro">';
+  domString += '<p class="text-center">This section highlights my progress throughout the Nashville Software School bootcamp program. Looking back, I remember how exciting it felt to gain new knowledge every week and how encouraging it also felt to consistently realize how much there is to learn. That is one of the reasons I enjoy the software development field - I know there will always be new concepts to learn and new skills to practice!</p>';
+  domString += '</div>';
+
+  domString += '<div class="container">';
+  domString += '<div class="row">';
+
+  // domString += '<div class="col">';
+  // domString += '<a id="featuredProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Featured Projects</a>';
+  // domString += '</div>';
+  domString += '<div class="col">';
+  domString += '<a id="individualProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Individual Projects</a>';
+  domString += '</div>';
+  domString += '<div class="col">';
+  domString += '<a id="groupProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Group Projects</a>';
+  domString += '</div>';
+
+  domString += '</div>';
+  domString += '</div>';
+
+  domString += '<div id="projectsDiv">';
+  // domString += getFeaturedProjects();
+  domString += '</div>';
+
+  utils.printToDom('projectsPage', domString);
+};
+
 
 const openProjectDetails = (e) => {
   $('#btnOpenProjectDetails').modal('show');
@@ -51,6 +151,9 @@ const openProjectDetails = (e) => {
 };
 
 const createProjectCardsEvents = () => {
+  $('body').on('click', '#featuredProjects', getFeaturedProjects);
+  $('body').on('click', '#individualProjects', getIndividualProjects);
+  $('body').on('click', '#groupProjects', getGroupProjects);
   $('body').on('click', '.btnOpenProjectDetails', openProjectDetails);
 };
 
