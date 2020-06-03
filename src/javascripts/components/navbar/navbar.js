@@ -12,7 +12,7 @@ const buildNavbar = () => {
   domString += '    <div id="navLinks" class="navbar-nav">';
   domString += '      <a id="navToBio" class="nav-item nav-link ml-auto" href="#bioPage">About Me</a>';
   // domString += '      <a id="navToPortfolio" class="nav-item nav-link ml-auto" href="#portfolioPage">Portfolio</a>';
-  domString += '      <a id="navToProjects" class="nav-item nav-link ml-auto" href="#projectsPage">Projects</a>';
+  domString += '      <a id="navToProjects" class="nav-item nav-link ml-auto" href="#projectsPage">Portfolio</a>';
   domString += '      <a id="navToTechnologies" class="nav-item nav-link ml-auto" href="#technologiesPage">Skills</a>';
   // domString += '      <a id="navToExperience" class="nav-item nav-link ml-auto" href="#experiencePage">Experience & Education</a>';
   domString += '      <a id="navToFooter" class="nav-item nav-link ml-auto" href="#contactPage">Contact</a>';
