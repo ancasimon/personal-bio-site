@@ -39,8 +39,8 @@
 //   height: 0;
 //   overflow: hidden;
 // }
-.animatedDiv.active {
-  transition: none 500s ease-in 500s;
+.animatedDiv:active {
+  transition: display 500s ease-in 500s;
   // opacity: 1;
   // height: auto;
 }
