@@ -123,9 +123,9 @@ const createProjectCards = () => {
   domString += '<div class="container">';
   domString += '<div class="row">';
 
-  domString += '<div class="col">';
-  domString += '<a id="featuredProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Featured Projects</a>';
-  domString += '</div>';
+  // domString += '<div class="col">';
+  // domString += '<a id="featuredProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Featured Projects</a>';
+  // domString += '</div>';
   domString += '<div class="col">';
   domString += '<a id="individualProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Individual Projects</a>';
   domString += '</div>';
@@ -137,7 +137,7 @@ const createProjectCards = () => {
   domString += '</div>';
 
   domString += '<div id="projectsDiv">';
-  domString += getFeaturedProjects();
+  // domString += getFeaturedProjects();
   domString += '</div>';
 
   utils.printToDom('projectsPage', domString);
