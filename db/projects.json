@@ -112,13 +112,13 @@
     "capstone": false
   },
   "project8": {
-    "title": "A Mushroom Picker's Adventures",
+    "title": "'Fun-guy' Adventures",
     "sequence": 8,
     "screenshot": "https://tinyurl.com/yc4a6bwl",
     "alt": "Screenshot of the Mushroom Picker app",
-    "description": "This was our first venture into React. Our Mushroom-Picker project was intended to give us the opportunity to familiarize ourselves with using state and props in React, understand how data gets transferred across files, and learn how to manipulate the display in the component files.",
-    "briefDescription": "We're going mushroom picking! Our first venture using React, this app allows you to fill your basket with random mushrooms from the forest. However, surprises lie ahead! Find out what happens when you choose a deadly, poisonous, or a magic mushroom!", 
-    "background": "From really starting to grasp the concepts of state and props to learning how to pass data into individual components and how to make updates as well as how to control CSS based on React component attributes to having more fun with CSS in order to meet the project requirements for highlighting the deadly mushroom selection and the full basket scenarios, this project gave me the opportunity to both learn new concepts and practice current skills.",
+    "description": "Our first venture into React, this app lets you add randomly-selected mushrooms to your basket, suffer the consequences when you happen upon a deadly or poisonous mushrooms, and rejoice when you find the magic mushroom and fill your basket!",
+    "briefDescription": "We're going mushroom picking! Our first venture using React, this app allows you to fill your basket with random mushrooms from the forest. However, surprises lie ahead! Find out what happens when you choose deadly, poisonous, or magic fungi!", 
+    "background": "From really starting to grasp the concepts of state and props in React to learning how to pass data into individual components and how to make updates as well as how to control CSS based on React component attributes to having more fun with CSS in order to meet the project requirements for highlighting the deadly mushroom selection and the full basket scenarios, this project gave me the opportunity to both learn new concepts and practice current skills.",
     "technologiesUsed": "Bootstrap, CSS, ES6 Modules, ESLint, Github, HTML5, JavaScript, React, Sweetalert2, Webpack",
     "available": true,
     "url": "https://mushroompicker-20347.web.app/",
