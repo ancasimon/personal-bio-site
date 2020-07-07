@@ -13,7 +13,7 @@ const getFeaturedProjects = () => {
       domString += '<div class="container d-flex flex-wrap project-container">';
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
-        if (project.capstone === true) {
+        if (project.capstone === true && project.available === true) {
           domString += '<div class="col-md-4 p-2">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
@@ -50,7 +50,7 @@ const getIndividualProjects = (e) => {
       domString += '<div class="container d-flex flex-wrap project-container">';
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
-        if (project.group === false && project.capstone === false) {
+        if (project.group === false && project.capstone === false && project.available === true) {
           domString += '<div class="col-md-4 p-2">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
@@ -87,7 +87,7 @@ const getGroupProjects = (e) => {
       domString += '<div class="container d-flex flex-wrap project-container">';
       domString += '<div class="row">';
       sortedProjects.forEach((project) => {
-        if (project.group === true) {
+        if (project.group === true && project.available === true) {
           domString += '<div class="col-md-4 p-2">';
           domString += '<div class="card project-card">';
           domString += `<img src="${project.screenshot}" class="card-img-top" alt="${project.alt}">`;
@@ -125,16 +125,17 @@ const createProjectCards = () => {
   domString += '<div class="container mt-5">';
   domString += '<div class="row">';
 
-  // domString += '<div class="col">';
-  // domString += '<div class="animatedButtonDiv">';
-  // domString += '<button class="animatedButton">';
-  // domString += '<a id="featuredProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Featured Projects</a>';
-  // domString += '<div class="animatedButton__horizontal"></div>';
-  // domString += '<div class="animatedButton__vertical"></div>';
-  // domString += '</button>';
-  // domString += '</div>';
+  domString += '<div class="col-md-4">';
+  domString += '<div class="animatedButtonDiv">';
+  domString += '<button class="animatedButton">';
+  domString += '<a id="featuredProjects" href="#projectsPage" class="list-group-item list-group-item-action blueButton">Featured Projects</a>';
+  domString += '<div class="animatedButton__horizontal"></div>';
+  domString += '<div class="animatedButton__vertical"></div>';
+  domString += '</button>';
+  domString += '</div>';
+  domString += '</div>';
 
-  domString += '<div class="col">';
+  domString += '<div class="col-md-4">';
   domString += '<div class="animatedButtonDiv">';
   domString += '<button id="individualProjects" class="animatedButton">';
   domString += '<a href="#projectsPage" class="list-group-item list-group-item-action blueButton">Individual Projects</a>';
@@ -142,9 +143,9 @@ const createProjectCards = () => {
   domString += '<div class="animatedButton__vertical"></div>';
   domString += '</button>';
   domString += '</div>';
-
   domString += '</div>';
-  domString += '<div class="col">';
+
+  domString += '<div class="col-md-4">';
   domString += '<div class="animatedButtonDiv">';
   domString += '<button id="groupProjects" class="animatedButton">';
   domString += '<a href="#projectsPage" class="list-group-item list-group-item-action blueButton">Group Projects</a>';
@@ -158,7 +159,7 @@ const createProjectCards = () => {
   domString += '</div>';
 
   domString += '<div id="projectsDiv">';
-  // domString += getFeaturedProjects();
+  domString += getFeaturedProjects();
   domString += '</div>';
 
   utils.printToDom('projectsPage', domString);
