@@ -6,7 +6,7 @@
     "alt": "Home page of the Dinosaur Patient Tracker app",
     "description": "This application tracks patients at a pet dinosaur veterinary clinic. This project showcases the Vanilla Javascript and additional tools we learned during the first part, the Foundations milestone, in our front-end bootcamp program at the Nashville Software School.",
     "briefDescription": "Check out this patient-tracking app for the most RAWRsome vet clinic around. This project showcases the Vanilla Javascript we learned during our Foundations milestone.",
-    "background": "This project helped solidify my knowledge of several tools and technologies, such as CSS Flexbox, Bootstrap accordions, modals, and forms, jQuery event listeners, additional Javascript methods, and FontAwesome for making logo and button icons more visually appealing.",
+    "background": "This project helped solidify my knowledge of several tools and technologies, such as CSS Flexbox, Bootstrap accordions, modals, and forms, jQuery event listeners, additional JavaScript methods, and FontAwesome for making logo and button icons more visually appealing.",
     "technologiesUsed": "Bootstrap, CSS, FontAwesome, Github, HTML5, JavaScript, jQuery",
     "available": true,
     "url": "https://patienttracker-5a29e.firebaseapp.com",

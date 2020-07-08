@@ -42,13 +42,13 @@
     "sequence": 7
   },
   "tech8": {
-    "name": "Javascript",
+    "name": "JavaScript",
     "imageUrl": "https://img.icons8.com/color/2x/javascript.png",
     "use": "(for everything!)",
     "sequence": 8
   },
   "tech9": {
-    "name": "jQuery Javascript Library",
+    "name": "jQuery JavaScript Library",
     "imageUrl": "https://img.icons8.com/ios-filled/2x/jquery.png",
     "use": "(for manipulating data and controlling events in the Document Object Model (DOM))",
     "sequence": 9
@@ -84,7 +84,7 @@
     "sequence": 14
   },
   "tech15": {
-    "name": "React Javascript Library",
+    "name": "React JavaScript Library",
     "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
     "use": "(for creating fast and efficient user interface)",
     "sequence": 15
