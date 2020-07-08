@@ -66,40 +66,58 @@
     "sequence": 11
   },
   "tech12": {
-    "name": "moqups",
-    "imageUrl": "https://landing.moqups.com/img/logo@2x.png",
-    "use": "(for designing mockups to clarify requirements)",
+    "name": "moment.js",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/momentjs.svg",
+    "use": "(for manipulating timestamps)",
     "sequence": 12
   },
   "tech13": {
-    "name": "npm",
-    "imageUrl": "https://img.icons8.com/color/2x/npm.png",
-    "use": "(for packaging project files)",
+    "name": "moqups",
+    "imageUrl": "https://landing.moqups.com/img/logo@2x.png",
+    "use": "(for designing mockups to clarify requirements)",
     "sequence": 13
   },
   "tech14": {
-    "name": "React Javascript Library",
-    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
-    "use": "(for creating fast and efficient user interface)",
+    "name": "npm",
+    "imageUrl": "https://img.icons8.com/color/2x/npm.png",
+    "use": "(for packaging project files)",
     "sequence": 14
   },
   "tech15": {
-    "name": "Sass",
-    "imageUrl": "https://img.icons8.com/color/2x/sass.png",
-    "use": "(for building visually appealing CSS extensions)",
+    "name": "React Javascript Library",
+    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
+    "use": "(for creating fast and efficient user interface)",
     "sequence": 15
   },
   "tech16": {
-    "name": "Visual Studio Code",
-    "imageUrl": "https://img.icons8.com/color/2x/visual-studio-code-2019.png",
-    "use": "(for writing and editing code and debugging)",
+    "name": "react-router-dom",
+    "imageUrl": "https://repository-images.githubusercontent.com/19872456/05dca500-f010-11e9-9588-a96554294e4e",
+    "use": "(for adding routing to facilitate site navigation)",
     "sequence": 16
   },
   "tech17": {
+    "name": "reactstrap",
+    "imageUrl": "https://reactstrap.github.io/assets/logo.png",
+    "use": "(for employing  Bootstrap with React)",
+    "sequence": 17
+  },
+  "tech18": {
+    "name": "Sass",
+    "imageUrl": "https://img.icons8.com/color/2x/sass.png",
+    "use": "(for building visually appealing CSS extensions)",
+    "sequence": 18
+  },
+  "tech19": {
+    "name": "Visual Studio Code",
+    "imageUrl": "https://img.icons8.com/color/2x/visual-studio-code-2019.png",
+    "use": "(for writing and editing code and debugging)",
+    "sequence": 19
+  },
+  "tech20": {
     "name": "Webpack",
     "imageUrl": "https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.png",
     "use": "(for bundling project files and development dependencies)",
-    "sequence": 17
+    "sequence": 20
   }
 }
   

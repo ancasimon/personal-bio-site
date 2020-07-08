@@ -1,6 +1,6 @@
 import utils from '../../helpers/utils';
 
-import resume from '../../../img-personal-bio-site/resume.pdf';
+import resume from '../../../assets/resume.pdf';
 
 import '../../../styles/_animations.scss';
 import './about.scss';
@@ -15,7 +15,6 @@ const buildAboutSection = () => {
   domString += '<div class="animatedButtonDiv m-4">';
   domString += '<button class="animatedButton">';
   domString += `<a href=${resume} target="_blank" class="btn btn-light blueButton">Download my resume</a>`;
-  // domString += `<iframe src=${resume} width="100%" height="300" style="border:1px solid black;"></iframe>`;
   domString += '<div class="animatedButton__horizontal"></div>';
   domString += '<div class="animatedButton__vertical"></div>';
   domString += '</button>';
