@@ -90,7 +90,7 @@
     "sequence": 15
   },
   "tech16": {
-    "name": "react-router-dom",
+    "name": "React Router",
     "imageUrl": "https://repository-images.githubusercontent.com/19872456/05dca500-f010-11e9-9588-a96554294e4e",
     "use": "(for adding routing to facilitate site navigation)",
     "sequence": 16
