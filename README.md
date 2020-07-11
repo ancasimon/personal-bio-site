@@ -2,6 +2,8 @@
 [Check it out here!](https://asimonbio.firebaseapp.com/)
 
 ## Description
+Come find out why I am a developer today!
+
 This is my personal portfolio site. It allows visitors to my site to learn about my background, find out why I am a software developer today, and get a glimpse of the projects I have developed as a student at the Nashville Software School. This site also showcases the technologies and tools we have learned during our NSS 12-month intensive bootcamp program. 
 
 ## Screenshots
@@ -9,7 +11,7 @@ This is my personal portfolio site. It allows visitors to my site to learn about
 ![Home Page](./personal-bio-screenshots/home.png)
 ##### About Me Section
 ![About Page](./personal-bio-screenshots/about.png)
-##### Projects Section
+##### Portfolio Section
 ![Projects Page](./personal-bio-screenshots/projects.png)
 ##### Skills Section
 ![Skills Page](./personal-bio-screenshots/skills.png)
