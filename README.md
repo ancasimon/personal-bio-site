@@ -1,10 +1,10 @@
-# Anca Simon Personal Bio Site
+# Anca Simon's Portfolio Site
 [Check it out here!](https://asimonbio.firebaseapp.com/)
 
 ## Description
 Come find out why I am a developer today!
 
-This is my personal portfolio site. It allows visitors to my site to learn about my background, find out why I am a software developer today, and get a glimpse of the projects I have developed as a student at the Nashville Software School. This site also showcases the technologies and tools we have learned during our NSS 12-month intensive bootcamp program. 
+This is my personal portfolio site. It allows visitors to my site to learn about my background, find out why I am a software developer today, and get a glimpse of the projects I worked on as a student at the Nashville Software School. This site also showcases the tools and technologies I learned during my 12-month intensive bootcamp program at NSS. 
 
 ## Screenshots
 ##### Home Page
