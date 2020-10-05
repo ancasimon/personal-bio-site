@@ -119,7 +119,7 @@ const createProjectCards = () => {
   domString += '<h2>Portfolio</h2>';
   domString += '<hr></hr>';
   domString += '<div class="sectionIntro">';
-  domString += '<p class="text-center">This section highlights my progress throughout the Nashville Software School bootcamp program. Looking back, I remember how exciting it felt to gain new knowledge every week and how encouraging it also felt to consistently realize how much there is to learn. That is one of the reasons I enjoy the software development field - I know there will always be new concepts to learn and new skills to practice!</p>';
+  domString += '<p class="text-center">This section highlights my progress throughout the Nashville Software School bootcamp program. Looking back, I remember how exciting it felt to gain new knowledge every week. That is one of the reasons I enjoy the software development field - I know there will always be new concepts to learn and new skills to practice!</p>';
   domString += '</div>';
 
   domString += '<div class="container mt-5">';

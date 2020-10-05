@@ -2,7 +2,7 @@
   "tech1": {
     "name": "Bootstrap",
     "imageUrl": "https://img.icons8.com/color/2x/bootstrap.png",
-    "use": "(for out-of-the-box tools, such as grids, modals, etc.)",
+    "use": "(for out-of-the-box tools, such as grids and modals)",
     "sequence": 1
   },
   "tech2": {
