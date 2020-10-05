@@ -26,7 +26,7 @@ const buildAboutSection = () => {
   domString += '<div class="col-md-4 p-2">';
   domString += '<i class="fas fa-pencil-ruler introIcon p-2"></i>';
   domString += '<div class="card bg-light p-2">';
-  domString += '<p class="card-text text-center"><small>I still remember the awe, pride, and amazement I experienced when I went to a demo session with our developers where they were showing us the first iteration of a module for which I had written the business specifications and done the mockups. I had been a business analyst for a few months and written specs already for lots of little enhancements. Writing, testing, releasing, and training others on each of them had been exciting.</small></p>';
+  domString += '<p class="card-text text-center"><small>I still remember the awe and pride I experienced at a demo session where our developers were showing us the first iteration of a module I had owned from discovery and market research through mockups and business specifications and now development. I had been a business analyst for a few months and written specs already for lots of little enhancements. Writing, testing, releasing, and training others on each of them had been exciting.</small></p>';
   domString += '</div>';
   domString += '</div>';
   domString += '<div class="col-md-4 p-2">';
