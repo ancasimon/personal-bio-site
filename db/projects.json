@@ -13,6 +13,7 @@
     "githubUrl": "https://github.com/ancasimon/dino-kennel",
     "date": "February 2020",
     "group": false,
+    "hasUi": true,
     "capstone": false
   },
   "project2": {
@@ -29,6 +30,7 @@
     "githubUrl": "https://github.com/ancasimon/bear-watcher",
     "date": "February 2020",
     "group": false,
+    "hasUi": true,
     "capstone": false
   },
   "project3": {
@@ -45,6 +47,7 @@
     "githubUrl": "https://github.com/ancasimon/chatty-sundews",
     "date": "March 2020",
     "group": true,
+    "hasUi": true,
     "capstone": false
   },
   "project4": {
@@ -61,6 +64,7 @@
     "githubUrl": "https://github.com/ancasimon/pinterest",
     "date": "March 2020",
     "group": false,
+    "hasUi": true,
     "capstone": false
   },
   "project5": {
@@ -77,6 +81,7 @@
     "githubUrl": "https://github.com/ancasimon/travel-diary",
     "date": "April 2020",
     "group": false,
+    "hasUi": true,
     "capstone": false
   },
   "project6": {
@@ -93,6 +98,7 @@
     "githubUrl": "https://github.com/ancasimon/nutshell-wookies",
     "date": "April 2020",
     "group": true,
+    "hasUi": true,
     "capstone": false
   },
   "project7": {
@@ -109,6 +115,7 @@
     "githubUrl": "https://github.com/ancasimon/nutshell-sithlords-wookies",
     "date": "May 2020",
     "group": true,
+    "hasUi": true,
     "capstone": false
   },
   "project8": {
@@ -125,6 +132,7 @@
     "githubUrl": "https://github.com/ancasimon/mushroom-picker",
     "date": "May 2020",
     "group": false,
+    "hasUi": true,
     "capstone": false
   },
   "project9": {
@@ -141,22 +149,58 @@
     "githubUrl": "https://github.com/ancasimon/front-end-capstone",
     "date": "June 2020",
     "group": false,
+    "hasUi": true,
     "capstone": true
   },
   "project10": {
-    "title": "Back-End CAPSTONE",
+    "title": "ClinkedIn",
     "sequence": 10,
+    "screenshot": "https://lh3.googleusercontent.com/pw/ACtC-3fXEvP7r5fwkcmYUwe1BiaMcgkvSn703H9LkOlKpeyQsOVFWdvaAoum2RJSV-7GBlRm-WwjiLUlFHHoGgKvKBzEc1HI6IVo2pdCmecpUxiC5HIqpPP9rH6HWul1ynocH2q_QrK6T13yF7w9ypNBIrGK=w1782-h908-no?authuser=0",
+    "alt": "ClinkedIn project description",
+    "description": "Our second backend project was an opportunity to hone our C# and API-building skills as well as to get more mob coding practice (and to resurrect Piper and her friends).",
+    "briefDescription": "Our second backend project was an opportunity to hone our C# and API-building skills as well as to get more mob coding practice.", 
+    "background": "Mob programming for the initial setup of this project was a valuable experience - forcing us to slow down, to justify our suggestions and clarify them more than we might just to ourselves, and exposing us to new ideas that we may not have considered on our own.",
+    "technologiesUsed": "HTTP-based APIs, C#, GitHub, .Net Core, Postman, Visual Studio",
+    "available": true,
+    "url": "https://github.com/ancasimon/ClinkedIn",
+    "githubUrl": "https://github.com/ancasimon/ClinkedIn",
+    "date": "September 2020",
+    "group": true,
+    "hasUi": false,
+    "capstone": false
+  },
+  "project11": {
+    "title": "SQL Query Mania",
+    "sequence": 11,
+    "screenshot": "https://lh3.googleusercontent.com/pw/ACtC-3dJB7mybZEyGNbPJWf3Uoj_N1xqGuocBe1Oy0BM0XlGlm7fQNxrrsk13JWERfNxoOyGBKigLEXhKisTocmvmm0YchJoIbcPuqSU4fo4pEehzMTw0Ia3QHHXehFzaDedRZxJyTYFyUaDx4xevHng0-9j=w2610-h920-no?authuser=0",
+    "alt": "List of SQL Query projects in GitHub",
+    "description": "While the Northwestern University Knight Lab's SQL Murder Mystery was probably the most fun exercise I have encountered, these projects also gave me a sense of accomplishment and opportunities to grow my skills.",
+    "briefDescription": "These projects were opportunities to keep practicing SQL skills and have fun digging for data.", 
+    "background": "Getting to write multiple SQL queries to dig for data in some large databases reminded me that one of the primary benefits of software applications is access to actionable data that helps users make the right business decisions.",
+    "technologiesUsed": "Microsoft SQL Server Management Studio",
+    "available": true,
+    "url": "https://github.com/ancasimon/sqlquery_adventureworks2019",
+    "githubUrl": "https://github.com/ancasimon/sqlquery_adventureworks2019",
+    "date": "September 2020",
+    "group": false,
+    "hasUi": false,
+    "capstone": false
+  },
+  "project12": {
+    "title": "Back-End CAPSTONE",
+    "sequence": 12,
     "screenshot": "https://avatars3.githubusercontent.com/u/59633395?s=460&u=641b13076629e146468941dc9efa4c2953a2f4fb&v=4",
     "alt": "tbd",
     "description": "tbd",
     "briefDescription": "tbd", 
     "background": "tbd",
-    "technologiesUsed": "Bootstrap, CSS, ES6 Modules, ESLint, Github, HTML5, JavaScript, React, Sweetalert2, Webpack",
+    "technologiesUsed": "tbd",
     "available": false,
     "url": "tbd",
     "githubUrl": "tbd",
-    "date": "November 2020",
+    "date": "December 2020",
     "group": false,
+    "hasUi": true,
     "capstone": true
   }
 }

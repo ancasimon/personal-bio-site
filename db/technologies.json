@@ -2,122 +2,158 @@
   "tech1": {
     "name": "Bootstrap",
     "imageUrl": "https://img.icons8.com/color/2x/bootstrap.png",
-    "use": "(for out-of-the-box tools, such as grids and modals)",
+    "use": "(for out-of-the-box UI tools, such as grids and modals)",
     "sequence": 1
   },
   "tech2": {
-    "name": "CSS",
-    "imageUrl": "https://img.icons8.com/ios-filled/2x/css3.png",
-    "use": "(for controling the display of content)",
+    "name": "C#",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg",
+    "use": "(only the most awesome programming language ever)",
     "sequence": 2
   },
   "tech3": {
-    "name": "ES6 Modules",
-    "imageUrl": "",
-    "use": "(for organizing  files based on purpose and content)",
+    "name": "CSS",
+    "imageUrl": "https://img.icons8.com/ios-filled/2x/css3.png",
+    "use": "(for controling the display of content)",
     "sequence": 3
   },
   "tech4": {
-    "name": "ESLint",
-    "imageUrl": "https://miro.medium.com/max/2560/1*NXSzWQyiqhc_jjmyPm94lA.jpeg",
-    "use": "(for fixing the occasional typo! (and much more))",
+    "name": "ES6 Modules",
+    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/regular/folder.svg",
+    "use": "(for organizing files based on purpose and content)",
     "sequence": 4
   },
   "tech5": {
-    "name": "Firebase",
-    "imageUrl": "https://img.icons8.com/color/2x/firebase.png",
-    "use": "(for data management and project deployment)",
+    "name": "ESLint",
+    "imageUrl": "https://miro.medium.com/max/2560/1*NXSzWQyiqhc_jjmyPm94lA.jpeg",
+    "use": "(for fixing the occasional typo! And much more.)",
     "sequence": 5
   },
   "tech6": {
-    "name": "Github",
-    "imageUrl": "https://img.icons8.com/windows/2x/github.png",
-    "use": "(for version control and project planning)",
+    "name": "Firebase",
+    "imageUrl": "https://img.icons8.com/color/2x/firebase.png",
+    "use": "(for authentication, data management, and project deployment)",
     "sequence": 6
   },
   "tech7": {
-    "name": "HTML5",
-    "imageUrl": "https://img.icons8.com/ios-glyphs/2x/html-5.png",
-    "use": "(for displaying content on Web pages)",
+    "name": "Github",
+    "imageUrl": "https://img.icons8.com/windows/2x/github.png",
+    "use": "(for version control and project planning)",
     "sequence": 7
   },
   "tech8": {
-    "name": "JavaScript",
-    "imageUrl": "https://img.icons8.com/color/2x/javascript.png",
-    "use": "(for everything!)",
+    "name": "HTML5",
+    "imageUrl": "https://img.icons8.com/ios-glyphs/2x/html-5.png",
+    "use": "(for displaying content on Web pages)",
     "sequence": 8
   },
   "tech9": {
-    "name": "jQuery JavaScript Library",
-    "imageUrl": "https://img.icons8.com/ios-filled/2x/jquery.png",
-    "use": "(for manipulating data and controlling events in the Document Object Model (DOM))",
+    "name": "JavaScript",
+    "imageUrl": "https://img.icons8.com/color/2x/javascript.png",
+    "use": "(for everything!)",
     "sequence": 9
   },
   "tech10": {
-    "name": "JSONLint",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvwKi5CkdhHkU1b0cjMuN7PJq03Jy98d2JkBljyUG9OiqIPK_I&usqp=CAU",
-    "use": "(for validating content for JSON files)",
+    "name": "jQuery JavaScript Library",
+    "imageUrl": "https://img.icons8.com/ios-filled/2x/jquery.png",
+    "use": "(for manipulating data and controlling events in the DOM)",
     "sequence": 10
   },
   "tech11": {
-    "name": "Lucidchart",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR2B4DAg_5bAQ9H8xJEQ9gbvbjcIJ0Na4ocWyLAsJ2G-uk8iv1&usqp=CAU",
-    "use": "(for outlining entity relationship diagrams (ERDs) for a project's data collections and their relationships)",
+    "name": "JSONLint",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvwKi5CkdhHkU1b0cjMuN7PJq03Jy98d2JkBljyUG9OiqIPK_I&usqp=CAU",
+    "use": "(for validating JSON data)",
     "sequence": 11
   },
   "tech12": {
-    "name": "moment.js",
-    "imageUrl": "https://cdn.worldvectorlogo.com/logos/momentjs.svg",
-    "use": "(for manipulating timestamps)",
+    "name": "Lucidchart",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR2B4DAg_5bAQ9H8xJEQ9gbvbjcIJ0Na4ocWyLAsJ2G-uk8iv1&usqp=CAU",
+    "use": "(for outlining ERDs for a project's data collections and their relationships)",
     "sequence": 12
   },
   "tech13": {
-    "name": "moqups",
-    "imageUrl": "https://landing.moqups.com/img/logo@2x.png",
-    "use": "(for designing mockups to clarify requirements)",
+    "name": "moment.js",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/momentjs.svg",
+    "use": "(for manipulating timestamps)",
     "sequence": 13
   },
   "tech14": {
-    "name": "npm",
-    "imageUrl": "https://img.icons8.com/color/2x/npm.png",
-    "use": "(for packaging project files)",
+    "name": "moqups",
+    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/regular/object-ungroup.svg",
+    "use": "(for designing mockups to clarify requirements)",
     "sequence": 14
   },
   "tech15": {
-    "name": "React JavaScript Library",
-    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
-    "use": "(for creating fast and efficient user interface)",
+    "name": ".Net Core",
+    "imageUrl": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb0d4d76c-e946-482e-9186-c23b592dc49e%2Fdotnet.png?table=block&id=5a5611a3-20ff-402a-aed0-5a0c2a8c58bc&width=250&userId=d8c2fc87-9a7c-4e46-96bf-01d3fc9a30ba&cache=v2",
+    "use": "(for running C# applications)",
     "sequence": 15
   },
   "tech16": {
-    "name": "React Router",
-    "imageUrl": "https://repository-images.githubusercontent.com/19872456/05dca500-f010-11e9-9588-a96554294e4e",
-    "use": "(for adding routing to facilitate site navigation)",
+    "name": "npm",
+    "imageUrl": "https://img.icons8.com/color/2x/npm.png",
+    "use": "(for packaging project files)",
     "sequence": 16
   },
   "tech17": {
-    "name": "reactstrap",
-    "imageUrl": "https://reactstrap.github.io/assets/logo.png",
-    "use": "(for employing  Bootstrap with React)",
+    "name": "Postman",
+    "imageUrl": "https://user-images.githubusercontent.com/2676579/34940598-17cc20f0-f9be-11e7-8c6d-f0190d502d64.png",
+    "use": "(for testing APIs)",
     "sequence": 17
   },
   "tech18": {
-    "name": "Sass",
-    "imageUrl": "https://img.icons8.com/color/2x/sass.png",
-    "use": "(for building visually appealing CSS extensions)",
+    "name": "React JavaScript Library",
+    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/react.svg",
+    "use": "(for creating fast and efficient user interface)",
     "sequence": 18
   },
   "tech19": {
-    "name": "Visual Studio Code",
-    "imageUrl": "https://img.icons8.com/color/2x/visual-studio-code-2019.png",
-    "use": "(for writing and editing code and debugging)",
+    "name": "React Router",
+    "imageUrl": "https://repository-images.githubusercontent.com/19872456/05dca500-f010-11e9-9588-a96554294e4e",
+    "use": "(for adding routing to facilitate site navigation)",
     "sequence": 19
   },
   "tech20": {
+    "name": "reactstrap",
+    "imageUrl": "https://reactstrap.github.io/assets/logo.png",
+    "use": "(for employing  Bootstrap with React)",
+    "sequence": 20
+  },
+  "tech21": {
+    "name": "Sass",
+    "imageUrl": "https://img.icons8.com/color/2x/sass.png",
+    "use": "(for building visually appealing CSS extensions)",
+    "sequence": 21
+  },
+  "tech22": {
+    "name": "SQL Server Management Studio",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYDApesOMQ2mRVKz3mrgo1_sazWAT9R4A1Pw&usqp=CAU",
+    "use": "(for making data actionable)",
+    "sequence": 22
+  },
+  "tech23": {
+    "name": "Test-Driven Development",
+    "imageUrl": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/regular/check-circle.svg",
+    "use": "(for effecting focus and confidence)",
+    "sequence": 23
+  },
+  "tech24": {
+    "name": "Visual Studio",
+    "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///9qG5pfAJPg0upjAJZkB5elf8C5m85oFplmDZf9+/5lAJfo3u/r4vFnEpigeL3ayuXJstmyksn38/qETKtuH53Lttp4M6PRvd+tisWCSKnq4PDVw+J6OKWqhsSZbLl+P6eMV7CVZra/pNLz7fdzKqCKVa+8oNB0LaGccbr07/jEq9WXaLe4mc6QXrKie7770ia/AAAF3klEQVR4nO2daWPiIBCGCRIbokatbb1bbbWH9vj//249emTVhHAkwGTe75vl2X0ZRhgGQlAoFAqFQqFQKBQKhUKhUCgUCpRmPdsjKFlPjA6vO7ZHUaLGNAoiRpf9ge2RlKP4gQYHJbTV7cW2h2NeqxsW/CoE6NbpMAzSAufWXsCDU3EawnFrvxWdAR7dOofh1it2GfDgVrbcbmwPUFNxk2bxfbuV++3WwWM+oPduXS2YEPDo1s+tl7G1sT4PoqDcOkuSooB+unWbsUrkuvV5ZXvYxXUtjjEXRBu2x11UcVcJ0B/CzbJQEPWXsDNXBPSFsHFbeJXwk/AulA2inhG+ZKfaIAjje7Ug6g3h4EEL0H3C1UQ1iHpC2H4NxRA+E84iqVTbP0L5VNszwmudVcIDQtVU2xvCwadmEHWdsFNsQ8ZfQokNGT8JR1x7lXCb8MlEEHWZcGwkiLpLGGum2s4Tbm4MBVFXCfVTbccJe/qpttuEWWefYAg/DK4SWoSNks6tvowGUWXCwd0zu2mXwGcq1dYkbI+HLAn47Z1xwJXyrrZBwnj2yI8zJWJNw4ePGrvaxghXLwv2NwrDTh1p7GobImx01+y/pcqoU02m2mqEnUnr7B/ZoFONptpqhI2LQzDl1LcSAfUIzTh1YDjVNkpowqmdoeFU2yyhvlPNp9qmCTWdWkKqbZxQy6k5ZYYOEWo4tVlqjDFIqOjUWCnVjvirBUIlp26UdrXZutGUCr6GCBWc2lbZ1Y7o24ZYIpR1qmSZ4fffkfR3f9QWoZxTn1RWCbo81FJaI9w5dVLUqWOFVSJpXR3/sEXCgAfFnPqmEGPY4uefzyZhMacOFMoMI3r/+2GrhHunTgXfWs3lU222Tl01tEwY8CjfqQobMoc1wh1CgVPvuHSM4bz/3yesE+Y6Vb7MMPpeI5wi3K3MGU69l44xCbs6/YgLhBlOjR+lAdn8fImtivA2f7RscnaXYyNdZpheIyonZFcvNHdKcX7i1OmrbBBltxevo1dGSGY8d8gR+0p/QnpDJqIPl8+4qiMkU8FhStqp0mWGvNXPGEyFhCR+F/z2/3WqdJkhfc68k1UlISEf+ZMxokendiVjTEI/sgdTLeFuMuZPL7bokFg21WbDvJ9hFROS6TB/+JxvF3Kp9uU1wh6hcDJGTC6IhomgZUnlhMLJKCf6LqqDsEBIZqGpwwfOstYIu4Qal+dOhnNT4E6rFULhZCykKG+NsE1oYjKydbGtOluEupPxJzlwmJB0BCtjrsJW4bZW9gh3v3CVJyN9LL5fbpFwf2VeaTImVLxGOEJIRokCIp9I9T2wS0hmLWnAaC7DZ5tQqT7Np/9D6PMw/gQeS6c6Fwl8WA9HLeA5jeIUTH/S6bx0oD4F/+TybwvRZk3h4bj6+1BzCqbk6G98/SmYHpF7+zSiVdD7vbY29P1S0RT0fs9bMAW9P7cQNaL0/uxJNAW9Pz8c5W+ueX8G/AH9HB9+LYZgaBDqafIEviYKel0b+NpE8PWl0GuEwdd5F63Vl03E93KiVh/6fQvwd2bA33uCfncN/P1D8HdIod8DBn+XG/x9fOg9FcD3xQDf2wRSfxr4PYbg94naq9ReX6JrG5UQltuvre1Av7bjQGD33DsIet/Eg4D3vixTzvQvLU/ge9DWoI9wDXpB16Cfdw16shP4ffVJDd5GqMH7FjV4o6QG78zU4K2g3aphJhF3mBD+m12kBu+u1eDtvBq8f1iDNyxr8A5pDd6SJfDfAyZKBY2eEcJ/l7sGb6sTslEoaPSLUPnhVX8I93esoBMqJOIRY89S/RpsSzIRD+n8OvN+mKOS2L7hlHd7ho9xq9Cq2PbNzp2f25LOAMtWkYv/ProzpbgpqAT11J1p5RQ07ty53G7En3BdWeeonrszrd6FRJzT0Ht3pjQ9KWiMGF32PY2dGVqlz1FDOoTizpQGPwWNCW1BcmdaYxpBdGdaTwykO9OaFW6ehUKhUCgUCoVCoVAoFAqFQqFQSvoHUMGPSUgKHAIAAAAASUVORK5CYII=",
+    "use": "(for coding projects in C# and debugging)",
+    "sequence": 24
+  },
+  "tech25": {
+    "name": "Visual Studio Code",
+    "imageUrl": "https://img.icons8.com/color/2x/visual-studio-code-2019.png",
+    "use": "(for writing and editing code and debugging)",
+    "sequence": 25
+  },
+  "tech26": {
     "name": "Webpack",
     "imageUrl": "https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.png",
     "use": "(for bundling project files and development dependencies)",
-    "sequence": 20
+    "sequence": 26
   }
 }
   
