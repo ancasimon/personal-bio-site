@@ -160,7 +160,7 @@
     "description": "Our second backend project was an opportunity to hone our C# and API-building skills as well as to get more mob coding practice (and to resurrect Piper and her friends).",
     "briefDescription": "Our second backend project was an opportunity to hone our C# and API-building skills as well as to get more mob coding practice.", 
     "background": "Mob programming for the initial setup of this project was a valuable experience - forcing us to slow down, to justify our suggestions and clarify them more than we might just to ourselves, and exposing us to new ideas that we may not have considered on our own.",
-    "technologiesUsed": "HTTP-based APIs, C#, GitHub, .Net Core, Postman, Visual Studio",
+    "technologiesUsed": "HTTP-based APIs, C#, GitHub, .Net Core, Postman",
     "available": true,
     "url": "https://github.com/ancasimon/ClinkedIn",
     "githubUrl": "https://github.com/ancasimon/ClinkedIn",
