@@ -202,5 +202,22 @@
     "group": false,
     "hasUi": true,
     "capstone": true
+  },
+  "project13": {
+    "title": "Wildflower Coffee Gifts",
+    "sequence": 12,
+    "screenshot": "https://tinyurl.com/y5dyz7rt",
+    "alt": "Screenshot of Wildflower Coffee Gifts Home page",
+    "description": "Our last group project in our bootcamp was a full-stack application using C# and ASP .NET Core framework for the backend, with a SQL database, and a React application for the frontend. This project combines two of our favorite things: flowers and coffee! It is an e-commerce site where users can order flower bouquets in eclectic reusable coffee mugs.",
+    "briefDescription": "This e-commerce site for flower bouquets in eclectic coffee mugs is full-stack application using C# and ASP .NET Core framework for the backend, with a SQL database, and a React application for the frontend.", 
+    "background": "My individual contributions included setting up routing throughout the application, the ability to view a single product's details, and the full shopping cart experience - from placing a product in the cart, through updating the cart as needed with more of the same product or additional products, and finishing with the checkout process, which includes delivery and billing data and placing the order.",
+    "technologiesUsed": "API, ASP .NET Core, Axios, Bootstrap, C#, CSS, E6 Modules, Firebase (for authentication and hosting), Github (for version control and project management), HTML5, JavaScript, Lucidchart, Moment, moqups, React, React Router, reactstrap, Saas, SQL, SSMS, sweetalert2",
+    "available": true,
+    "url": "https://github.com/ancasimon/WildflowerCoffeeGifts",
+    "githubUrl": "https://github.com/ancasimon/WildflowerCoffeeGifts",
+    "date": "November 2020",
+    "group": true,
+    "hasUi": true,
+    "capstone": false
   }
 }
