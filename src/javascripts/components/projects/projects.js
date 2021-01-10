@@ -119,7 +119,7 @@ const createProjectCards = () => {
   domString += '<h2>Portfolio</h2>';
   domString += '<hr></hr>';
   domString += '<div class="sectionIntro">';
-  domString += '<p class="text-center">Check out these projects highlighting my progress throughout the Nashville Software School bootcamp program. <br /> Graduation date is now in sight: January 12, 2021! </p>';
+  domString += '<p class="text-center">Check out these projects highlighting my progress throughout the Nashville Software School bootcamp program. <br /> Graduation date is now here: January 12, 2021! </p>';
   domString += '</div>';
 
   domString += '<div class="container mt-5">';
