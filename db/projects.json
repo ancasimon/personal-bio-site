@@ -14,7 +14,8 @@
     "date": "February 2020",
     "group": false,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project2": {
     "title": "Compete",
@@ -31,7 +32,8 @@
     "date": "February 2020",
     "group": false,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project3": {
     "title": "Sundew Smoozer",
@@ -48,7 +50,8 @@
     "date": "March 2020",
     "group": true,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project4": {
     "title": "Foodies Unite",
@@ -65,7 +68,8 @@
     "date": "March 2020",
     "group": false,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project5": {
     "title": "Travel Diary",
@@ -82,7 +86,8 @@
     "date": "April 2020",
     "group": false,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project6": {
     "title": "Nautilus Explorer",
@@ -99,7 +104,8 @@
     "date": "April 2020",
     "group": true,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project7": {
     "title": "Renaissance Faire",
@@ -116,7 +122,8 @@
     "date": "May 2020",
     "group": true,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project8": {
     "title": "'Fun-guy' Adventures",
@@ -133,7 +140,8 @@
     "date": "May 2020",
     "group": false,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": true
   },
   "project9": {
     "title": "GearUp (Frontend Capstone)",
@@ -150,7 +158,8 @@
     "date": "June 2020",
     "group": false,
     "hasUi": true,
-    "capstone": true
+    "capstone": true,
+    "deployed": true
   },
   "project10": {
     "title": "ClinkedIn",
@@ -167,7 +176,8 @@
     "date": "September 2020",
     "group": true,
     "hasUi": false,
-    "capstone": false
+    "capstone": false,
+    "deployed": false
   },
   "project11": {
     "title": "SQL Query Mania",
@@ -184,7 +194,8 @@
     "date": "September 2020",
     "group": false,
     "hasUi": false,
-    "capstone": false
+    "capstone": false,
+    "deployed": false
   },
   "project12": {
     "title": "Unlimited (Backend Capstone)",
@@ -201,7 +212,8 @@
     "date": "December 2020",
     "group": false,
     "hasUi": true,
-    "capstone": true
+    "capstone": true,
+    "deployed": true
   },
   "project13": {
     "title": "Wildflower Coffee Gifts",
@@ -209,8 +221,8 @@
     "screenshot": "https://tinyurl.com/y5dyz7rt",
     "alt": "Screenshot of Wildflower Coffee Gifts Home page",
     "description": "Our last group project in our bootcamp was a full-stack application using C# and ASP .NET Core framework for the backend, with a SQL database, and a React application for the frontend. This project combines two of our favorite things: flowers and coffee! It is an e-commerce site where users can order flower bouquets in eclectic reusable coffee mugs.",
-    "briefDescription": "This e-commerce site for flower bouquets in eclectic coffee mugs is full-stack application using C# and ASP .NET Core framework for the backend, with a SQL database, and a React application for the frontend.", 
-    "background": "My individual contributions included setting up routing throughout the application, the ability to view a single product's details, and the full shopping cart experience - from placing a product in the cart, through updating the cart as needed with more of the same product or additional products, and finishing with the checkout process, which includes delivery and billing data and placing the order.",
+    "briefDescription": "This e-commerce site is a full-stack application built with C# and ASP .NET Core for the backend, a SQL database, and a React application for the frontend. Beautiful flower bouquets in eclectic coffee mugs to boot!", 
+    "background": "My individual contributions included setting up routing throughout the application, the ability to view a single product's details, and the full shopping cart experience - from placing a product in the cart, through updating the cart as needed with more of the same product or additional products, and finishing with the checkout process, which includes delivery and billing data, adding a payment type, and placing the order.",
     "technologiesUsed": "API, ASP .NET Core, Axios, Bootstrap, C#, CSS, E6 Modules, Firebase (for authentication and hosting), Github (for version control and project management), HTML5, JavaScript, Lucidchart, Moment, moqups, React, React Router, reactstrap, Saas, SQL, SSMS, sweetalert2",
     "available": true,
     "url": "https://github.com/ancasimon/WildflowerCoffeeGifts",
@@ -218,6 +230,7 @@
     "date": "November 2020",
     "group": true,
     "hasUi": true,
-    "capstone": false
+    "capstone": false,
+    "deployed": false
   }
 }
