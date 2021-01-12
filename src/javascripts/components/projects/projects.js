@@ -20,6 +20,11 @@ const getFeaturedProjects = () => {
           domString += '<div class="card-body">';
           domString += `<h4 class="card-title">${project.title}</h4>`;
           domString += `<p class="card-title text-center"><small class="text-muted">${project.date}</small></p>`;
+          if (project.demo) {
+            domString += '<div>';
+            domString += `<a href="${project.demo}" class="demo" target="_blank">Watch demo!</a>`;
+            domString += '</div>';
+          }
           domString += `<p class="card-title">${project.briefDescription}</p>`;
           domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
           domString += '<div>';
