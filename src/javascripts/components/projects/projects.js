@@ -60,8 +60,12 @@ const getIndividualProjects = (e) => {
           domString += `<p class="card-title">${project.briefDescription}</p>`;
           domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
           domString += '<div>';
-          domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
-          domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          if (project.deployed) {
+            domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
+            domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          } else {
+            domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">Find it on Github</a>`;
+          }
           domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
           domString += '</div>';
@@ -97,8 +101,12 @@ const getGroupProjects = (e) => {
           domString += `<p class="card-title">${project.briefDescription}</p>`;
           domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
           domString += '<div>';
-          domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
-          domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          if (project.deployed) {
+            domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
+            domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;
+          } else {
+            domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">Find it on Github</a>`;
+          }
           domString += '</div>';
           domString += `<button id="btnOpenProjectDetails" type="button" class="btn btn-secondary btnOpenProjectDetails mt-3" data-toggle="modal" data-target="#projectModal" data-id=${project.id}>Learn more</button>`;
           domString += '</div>';
@@ -119,7 +127,7 @@ const createProjectCards = () => {
   domString += '<h2>Portfolio</h2>';
   domString += '<hr></hr>';
   domString += '<div class="sectionIntro">';
-  domString += '<p class="text-center">Check out these projects highlighting my progress throughout the Nashville Software School bootcamp program. <br /> Graduation date is now here: January 12, 2021! </p>';
+  domString += '<p class="text-center">Check out these projects highlighting my progress throughout the Nashville Software School bootcamp program. <br /> Graduation date is here: January 12, 2021! </p>';
   domString += '</div>';
 
   domString += '<div class="container mt-5">';
