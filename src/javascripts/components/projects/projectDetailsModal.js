@@ -16,6 +16,16 @@ const buildProjectDetails = (projectId) => {
       domString += `<p class="card-text"><small>${project.background}</small></p>`;
       domString += '<h6>Tools & technologies: </h6>';
       domString += `<p class="card-text text-center"><small>${project.technologiesUsed}</small></p>`;
+      if (project.demo) {
+        domString += '<div>';
+        domString += `<a href="${project.demo}" class="demo" target="_blank">Watch demo!</a>`;
+        domString += '</div>';
+      }
+      if (project.techDemo) {
+        domString += '<div>';
+        domString += `<a href="${project.techDemo}" class="techDemo" target="_blank">And how I built it!</a>`;
+        domString += '</div>';
+      }
       if (project.deployed === true) {
         domString += `<a href="${project.url}" class="card-link" target="_blank">Find it here</a>`;
         domString += `<a href="${project.githubUrl}" class="card-link" target="_blank">And on Github</a>`;

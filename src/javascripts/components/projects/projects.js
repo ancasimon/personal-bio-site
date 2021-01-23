@@ -25,6 +25,11 @@ const getFeaturedProjects = () => {
             domString += `<a href="${project.demo}" class="demo" target="_blank">Watch demo!</a>`;
             domString += '</div>';
           }
+          if (project.techDemo) {
+            domString += '<div>';
+            domString += `<a href="${project.techDemo}" class="techDemo" target="_blank">And how I built it!</a>`;
+            domString += '</div>';
+          }
           domString += `<p class="card-title">${project.briefDescription}</p>`;
           domString += `<p class="card-title text-center"><small>${project.technologiesUsed}</small></p>`;
           domString += '<div>';
