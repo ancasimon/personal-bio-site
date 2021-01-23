@@ -214,7 +214,8 @@
     "hasUi": true,
     "capstone": true,
     "deployed": true,
-    "demo": "https://www.loom.com/share/0ee8e1f1d49e478eab1c805aa5038d86?sharedAppSource=personal_library"
+    "demo": "https://www.loom.com/share/0ee8e1f1d49e478eab1c805aa5038d86?sharedAppSource=personal_library",
+    "techDemo": "https://www.loom.com/share/1975b00255b54b199431d1bc9e3818c2?sharedAppSource=personal_library"
   },
   "project13": {
     "title": "Wildflower Coffee Gifts",
